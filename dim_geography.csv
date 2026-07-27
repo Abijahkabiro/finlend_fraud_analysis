@@ -1,0 +1,9 @@
+country_id,country_name,country_code,region,local_currency
+1,Kenya,KE,East Africa,KES
+2,Nigeria,NG,West Africa,NGN
+3,Ghana,GH,West Africa,GHS
+4,South Africa,ZA,Southern Africa,ZAR
+5,Egypt,EG,North Africa,EGP
+6,Tanzania,TZ,East Africa,TZS
+7,Uganda,UG,East Africa,UGX
+8,Rwanda,RW,East Africa,RWF

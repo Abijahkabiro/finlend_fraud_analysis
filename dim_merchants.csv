@@ -1,0 +1,1501 @@
+merchant_id,merchant_name,merchant_category,merchant_country,onboarding_date
+MERCH20000,Kazi Hub,Transport,Uganda,2024-07-13
+MERCH20001,Jambo Hub,Electronics,Nigeria,2026-05-22
+MERCH20002,Tula Shop,Groceries,Egypt,2025-10-18
+MERCH20003,Sunrise Mobile,Utilities,South Africa,2025-10-06
+MERCH20004,Jambo Shop,Electronics,Ghana,2026-01-24
+MERCH20005,Jambo Foods,Airtime & Data,South Africa,2025-03-31
+MERCH20006,Sahara Exchange,Utilities,Nigeria,2026-03-26
+MERCH20007,Baobab Wallet,Groceries,South Africa,2024-05-13
+MERCH20008,Metro Foods,Restaurants,Kenya,2023-04-21
+MERCH20009,Apex Hub,Retail,Egypt,2023-12-11
+MERCH20010,Afri Express,Airtime & Data,Nigeria,2025-03-25
+MERCH20011,Cloud Tech,Airtime & Data,Rwanda,2025-03-05
+MERCH20012,Pesa Games,Gift Cards,Nigeria,2025-06-01
+MERCH20013,Sunrise Bet,Airtime & Data,Uganda,2024-04-14
+MERCH20014,Sunrise Shop,Restaurants,Nigeria,2024-05-30
+MERCH20015,Prime Games,Airtime & Data,Nigeria,2024-06-08
+MERCH20016,Cloud Mobile,Transport,Egypt,2026-01-01
+MERCH20017,Swift Travel,Travel,Tanzania,2025-08-04
+MERCH20018,Swift Games,Gaming,Ghana,2024-11-04
+MERCH20019,Baobab Mart,Restaurants,Kenya,2025-08-28
+MERCH20020,Mega Travel,Restaurants,Nigeria,2026-01-01
+MERCH20021,Cloud Store,Transport,Egypt,2023-04-22
+MERCH20022,Quick Express,Gaming,Ghana,2025-08-25
+MERCH20023,Quick Shop,Groceries,South Africa,2024-11-07
+MERCH20024,Sunrise Mobile,Gift Cards,Nigeria,2024-03-07
+MERCH20025,Swift Mart,Electronics,Kenya,2026-04-18
+MERCH20026,Apex Mobile,Restaurants,South Africa,2023-10-08
+MERCH20027,Kazi Travel,Transport,Nigeria,2025-12-26
+MERCH20028,Quick Wallet,Gift Cards,Ghana,2026-05-24
+MERCH20029,Kazi Shop,Utilities,Uganda,2022-07-23
+MERCH20030,Kazi Plus,Betting,Nigeria,2025-01-13
+MERCH20031,Jambo Store,Utilities,Nigeria,2025-10-23
+MERCH20032,Zawadi Hub,Gift Cards,Kenya,2023-02-13
+MERCH20033,Swift Plus,Groceries,Kenya,2025-12-01
+MERCH20034,Apex Bet,Education,Nigeria,2024-02-11
+MERCH20035,Bright Cards,Groceries,Kenya,2023-07-03
+MERCH20036,Mega Mart,Restaurants,Nigeria,2025-01-10
+MERCH20037,Urban Foods,Groceries,Tanzania,2026-04-15
+MERCH20038,Afri Exchange,Groceries,Kenya,2026-05-15
+MERCH20039,Sahara Plus,Electronics,South Africa,2024-02-17
+MERCH20040,Swift Store,Gaming,Nigeria,2023-09-13
+MERCH20041,Urban Hub,Education,Nigeria,2025-05-30
+MERCH20042,Cloud Games,Money Transfer,Ghana,2026-05-08
+MERCH20043,Sahara Foods,Utilities,Nigeria,2022-08-01
+MERCH20044,Tula Store,Transport,Kenya,2023-01-28
+MERCH20045,Quick Wallet,Retail,Tanzania,2023-01-26
+MERCH20046,Imara Cards,Money Transfer,Kenya,2023-05-24
+MERCH20047,Bright Store,Retail,South Africa,2024-01-21
+MERCH20048,Swift Cards,Gaming,Egypt,2025-01-26
+MERCH20049,Tula Wallet,Gaming,Kenya,2022-10-23
+MERCH20050,Prime Hub,Airtime & Data,Kenya,2026-02-04
+MERCH20051,Prime Cards,Electronics,Uganda,2024-10-08
+MERCH20052,Pesa Foods,Gaming,Kenya,2024-12-30
+MERCH20053,Afri Plus,Airtime & Data,Nigeria,2023-06-14
+MERCH20054,Prime Foods,Electronics,Kenya,2023-03-04
+MERCH20055,Urban Tech,Groceries,Nigeria,2023-07-21
+MERCH20056,Cloud Shop,Restaurants,Kenya,2024-02-25
+MERCH20057,Apex Shop,Healthcare,Uganda,2025-02-03
+MERCH20058,Cloud Shop,Airtime & Data,Nigeria,2024-02-02
+MERCH20059,Afri Plus,Gaming,Egypt,2024-06-01
+MERCH20060,Swift Travel,Healthcare,Nigeria,2023-01-26
+MERCH20061,Pesa Bet,Retail,Ghana,2023-04-14
+MERCH20062,Nova Mobile,Money Transfer,South Africa,2024-12-04
+MERCH20063,Urban Wallet,Electronics,South Africa,2023-04-05
+MERCH20064,Mega Cards,Utilities,Tanzania,2024-06-08
+MERCH20065,Baobab Cards,Travel,Nigeria,2023-09-27
+MERCH20066,Sunrise Pay,Retail,Ghana,2025-08-02
+MERCH20067,Mega Bet,Utilities,Tanzania,2023-09-08
+MERCH20068,Zawadi Mobile,Gift Cards,Nigeria,2023-05-16
+MERCH20069,Pesa Wallet,Restaurants,Kenya,2026-02-10
+MERCH20070,Metro Mobile,Groceries,Nigeria,2023-03-02
+MERCH20071,Jambo Express,Gaming,Nigeria,2025-05-27
+MERCH20072,Prime Plus,Groceries,Kenya,2024-11-15
+MERCH20073,Afri Cards,Restaurants,Kenya,2023-06-29
+MERCH20074,Metro Pay,Retail,Kenya,2025-06-22
+MERCH20075,Baobab Express,Electronics,Nigeria,2026-03-16
+MERCH20076,Kazi Mobile,Groceries,Uganda,2023-08-27
+MERCH20077,Pesa Pay,Electronics,South Africa,2026-01-28
+MERCH20078,Bright Foods,Education,Nigeria,2023-02-08
+MERCH20079,Zawadi Cards,Airtime & Data,Egypt,2025-11-02
+MERCH20080,Pesa Shop,Travel,South Africa,2024-03-01
+MERCH20081,Kazi Shop,Utilities,Kenya,2025-05-04
+MERCH20082,Kazi Express,Gift Cards,South Africa,2023-09-19
+MERCH20083,Nova Express,Betting,Uganda,2025-06-28
+MERCH20084,Bright Cards,Healthcare,Kenya,2023-09-04
+MERCH20085,Kazi Plus,Airtime & Data,Rwanda,2024-04-23
+MERCH20086,Cloud Mobile,Restaurants,Nigeria,2022-07-13
+MERCH20087,Sunrise Games,Electronics,Ghana,2023-08-04
+MERCH20088,Bright Exchange,Utilities,Kenya,2023-11-04
+MERCH20089,Tula Games,Airtime & Data,Nigeria,2024-07-05
+MERCH20090,Zawadi Plus,Restaurants,Nigeria,2023-12-08
+MERCH20091,Imara Express,Electronics,Rwanda,2025-06-17
+MERCH20092,Tula Hub,Groceries,South Africa,2025-04-05
+MERCH20093,Metro Plus,Groceries,Uganda,2023-12-09
+MERCH20094,Cloud Foods,Gaming,South Africa,2022-10-30
+MERCH20095,Mega Shop,Gift Cards,Tanzania,2023-09-23
+MERCH20096,Bright Exchange,Retail,Kenya,2023-01-07
+MERCH20097,Jambo Shop,Education,Tanzania,2023-01-06
+MERCH20098,Metro Travel,Utilities,Egypt,2025-11-10
+MERCH20099,Urban Travel,Money Transfer,South Africa,2025-06-21
+MERCH20100,Metro Express,Money Transfer,South Africa,2022-10-27
+MERCH20101,Swift Mart,Utilities,Egypt,2025-01-25
+MERCH20102,Prime Tech,Electronics,Kenya,2024-07-02
+MERCH20103,Nova Travel,Utilities,Nigeria,2024-08-02
+MERCH20104,Quick Bet,Restaurants,Uganda,2025-12-30
+MERCH20105,Bright Games,Airtime & Data,Nigeria,2023-08-24
+MERCH20106,Nova Bet,Money Transfer,Kenya,2024-03-04
+MERCH20107,Swift Plus,Restaurants,South Africa,2024-08-18
+MERCH20108,Tula Mart,Travel,Nigeria,2026-05-29
+MERCH20109,Swift Games,Transport,Egypt,2022-08-19
+MERCH20110,Swift Travel,Retail,South Africa,2023-02-03
+MERCH20111,Sunrise Bet,Healthcare,Rwanda,2023-01-09
+MERCH20112,Baobab Pay,Groceries,South Africa,2024-11-30
+MERCH20113,Bright Express,Retail,South Africa,2023-08-08
+MERCH20114,Baobab Bet,Utilities,Ghana,2026-04-26
+MERCH20115,Imara Express,Electronics,Kenya,2022-10-23
+MERCH20116,Pesa Wallet,Money Transfer,Kenya,2025-05-16
+MERCH20117,Bright Store,Electronics,Egypt,2022-07-15
+MERCH20118,Afri Travel,Betting,Egypt,2025-08-20
+MERCH20119,Baobab Tech,Groceries,Kenya,2023-04-27
+MERCH20120,Tula Hub,Utilities,Ghana,2026-05-11
+MERCH20121,Swift Exchange,Education,Nigeria,2025-12-09
+MERCH20122,Kazi Exchange,Groceries,South Africa,2022-08-30
+MERCH20123,Apex Wallet,Retail,Egypt,2022-06-11
+MERCH20124,Baobab Travel,Education,Nigeria,2023-11-30
+MERCH20125,Urban Shop,Utilities,South Africa,2025-08-13
+MERCH20126,Nova Plus,Restaurants,Nigeria,2026-05-23
+MERCH20127,Afri Pay,Travel,Ghana,2024-09-10
+MERCH20128,Pesa Mobile,Airtime & Data,Egypt,2026-05-07
+MERCH20129,Bright Foods,Education,Kenya,2022-08-12
+MERCH20130,Baobab Plus,Betting,Kenya,2024-05-29
+MERCH20131,Prime Plus,Electronics,South Africa,2024-02-02
+MERCH20132,Apex Cards,Travel,Egypt,2025-06-11
+MERCH20133,Apex Travel,Airtime & Data,South Africa,2024-12-12
+MERCH20134,Pesa Store,Utilities,Kenya,2024-03-15
+MERCH20135,Kazi Tech,Electronics,Ghana,2022-09-28
+MERCH20136,Imara Foods,Restaurants,Nigeria,2025-04-24
+MERCH20137,Baobab Travel,Education,Uganda,2022-11-06
+MERCH20138,Swift Mart,Airtime & Data,South Africa,2026-04-01
+MERCH20139,Metro Games,Utilities,Ghana,2022-11-06
+MERCH20140,Metro Express,Retail,Nigeria,2022-10-06
+MERCH20141,Zawadi Mart,Groceries,Nigeria,2025-06-06
+MERCH20142,Swift Mobile,Transport,Kenya,2023-04-02
+MERCH20143,Mega Foods,Utilities,South Africa,2022-10-05
+MERCH20144,Urban Wallet,Utilities,Ghana,2024-10-21
+MERCH20145,Jambo Pay,Retail,Kenya,2024-11-30
+MERCH20146,Nova Cards,Transport,Nigeria,2024-07-23
+MERCH20147,Mega Tech,Travel,Egypt,2023-08-13
+MERCH20148,Prime Tech,Airtime & Data,Kenya,2022-08-22
+MERCH20149,Baobab Tech,Transport,Egypt,2024-10-21
+MERCH20150,Urban Wallet,Transport,Nigeria,2023-01-29
+MERCH20151,Jambo Store,Utilities,Kenya,2022-07-07
+MERCH20152,Baobab Pay,Groceries,Uganda,2026-02-27
+MERCH20153,Sahara Plus,Transport,Kenya,2024-07-07
+MERCH20154,Swift Cards,Retail,Kenya,2025-10-25
+MERCH20155,Kazi Tech,Betting,Ghana,2025-09-11
+MERCH20156,Nova Express,Transport,Kenya,2022-10-15
+MERCH20157,Metro Wallet,Utilities,Kenya,2025-07-12
+MERCH20158,Urban Pay,Electronics,South Africa,2022-11-23
+MERCH20159,Kazi Store,Groceries,Kenya,2024-07-17
+MERCH20160,Jambo Bet,Education,Rwanda,2024-06-09
+MERCH20161,Imara Travel,Travel,Egypt,2023-04-07
+MERCH20162,Apex Mart,Utilities,Tanzania,2024-03-09
+MERCH20163,Swift Foods,Airtime & Data,South Africa,2025-06-17
+MERCH20164,Swift Cards,Groceries,Ghana,2025-03-10
+MERCH20165,Apex Games,Utilities,South Africa,2024-08-02
+MERCH20166,Swift Pay,Airtime & Data,South Africa,2023-01-12
+MERCH20167,Tula Hub,Airtime & Data,Egypt,2023-07-29
+MERCH20168,Cloud Foods,Restaurants,Kenya,2022-12-08
+MERCH20169,Jambo Foods,Betting,Kenya,2026-02-15
+MERCH20170,Zawadi Store,Groceries,South Africa,2023-05-22
+MERCH20171,Kazi Foods,Airtime & Data,Kenya,2024-07-17
+MERCH20172,Kazi Tech,Utilities,Rwanda,2023-04-10
+MERCH20173,Prime Pay,Electronics,Kenya,2026-01-11
+MERCH20174,Zawadi Exchange,Betting,South Africa,2024-01-23
+MERCH20175,Jambo Travel,Restaurants,Egypt,2024-02-19
+MERCH20176,Apex Tech,Gaming,Nigeria,2026-05-12
+MERCH20177,Pesa Plus,Money Transfer,South Africa,2024-03-24
+MERCH20178,Mega Pay,Airtime & Data,Uganda,2024-09-12
+MERCH20179,Jambo Tech,Groceries,Uganda,2023-11-06
+MERCH20180,Cloud Games,Gift Cards,Kenya,2025-03-11
+MERCH20181,Prime Games,Travel,Kenya,2023-12-07
+MERCH20182,Urban Foods,Electronics,Nigeria,2024-03-01
+MERCH20183,Sunrise Mobile,Restaurants,Kenya,2023-10-13
+MERCH20184,Urban Store,Utilities,Kenya,2025-02-09
+MERCH20185,Imara Express,Airtime & Data,Nigeria,2025-06-11
+MERCH20186,Bright Pay,Restaurants,Kenya,2025-06-24
+MERCH20187,Nova Mart,Transport,Kenya,2023-07-15
+MERCH20188,Zawadi Exchange,Groceries,Rwanda,2022-06-10
+MERCH20189,Sahara Store,Education,South Africa,2023-04-23
+MERCH20190,Kazi Travel,Electronics,Nigeria,2024-07-11
+MERCH20191,Tula Travel,Crypto Exchange,Kenya,2025-12-01
+MERCH20192,Nova Exchange,Electronics,Ghana,2025-05-17
+MERCH20193,Quick Mobile,Crypto Exchange,South Africa,2026-04-29
+MERCH20194,Tula Shop,Groceries,Nigeria,2024-06-15
+MERCH20195,Nova Foods,Betting,South Africa,2024-06-23
+MERCH20196,Afri Tech,Travel,Nigeria,2022-08-30
+MERCH20197,Nova Pay,Transport,South Africa,2023-01-25
+MERCH20198,Sahara Store,Airtime & Data,Nigeria,2024-06-20
+MERCH20199,Baobab Foods,Groceries,Ghana,2022-10-24
+MERCH20200,Swift Games,Groceries,Kenya,2023-07-19
+MERCH20201,Swift Travel,Airtime & Data,Kenya,2024-11-12
+MERCH20202,Sahara Mart,Restaurants,Ghana,2024-05-03
+MERCH20203,Cloud Express,Electronics,Ghana,2025-07-15
+MERCH20204,Swift Exchange,Airtime & Data,Egypt,2024-12-28
+MERCH20205,Mega Hub,Airtime & Data,Kenya,2025-04-09
+MERCH20206,Mega Hub,Utilities,South Africa,2024-03-01
+MERCH20207,Pesa Wallet,Betting,Nigeria,2025-12-29
+MERCH20208,Cloud Pay,Utilities,Kenya,2023-04-24
+MERCH20209,Pesa Pay,Retail,Kenya,2024-01-28
+MERCH20210,Tula Plus,Airtime & Data,Ghana,2024-06-04
+MERCH20211,Imara Express,Transport,South Africa,2026-03-03
+MERCH20212,Apex Games,Groceries,Tanzania,2024-01-29
+MERCH20213,Apex Pay,Money Transfer,Nigeria,2025-02-21
+MERCH20214,Bright Shop,Restaurants,Egypt,2023-10-01
+MERCH20215,Quick Tech,Airtime & Data,Kenya,2025-05-27
+MERCH20216,Nova Express,Airtime & Data,South Africa,2024-12-23
+MERCH20217,Afri Wallet,Gift Cards,Kenya,2024-12-17
+MERCH20218,Cloud Wallet,Airtime & Data,South Africa,2023-09-07
+MERCH20219,Cloud Mart,Retail,Nigeria,2022-09-29
+MERCH20220,Pesa Express,Money Transfer,Nigeria,2024-08-08
+MERCH20221,Swift Travel,Crypto Exchange,South Africa,2025-12-01
+MERCH20222,Kazi Mart,Gift Cards,Ghana,2025-03-05
+MERCH20223,Nova Shop,Groceries,Kenya,2023-06-23
+MERCH20224,Baobab Wallet,Retail,South Africa,2024-01-18
+MERCH20225,Zawadi Mobile,Transport,South Africa,2022-10-23
+MERCH20226,Nova Travel,Electronics,Egypt,2023-05-28
+MERCH20227,Metro Mobile,Retail,Tanzania,2026-01-16
+MERCH20228,Urban Travel,Retail,Kenya,2025-02-12
+MERCH20229,Quick Exchange,Airtime & Data,South Africa,2023-07-07
+MERCH20230,Zawadi Store,Electronics,Nigeria,2024-01-31
+MERCH20231,Nova Mart,Healthcare,Nigeria,2026-05-14
+MERCH20232,Imara Plus,Crypto Exchange,South Africa,2024-03-01
+MERCH20233,Apex Hub,Transport,Ghana,2025-11-05
+MERCH20234,Urban Bet,Gaming,Tanzania,2023-03-25
+MERCH20235,Pesa Wallet,Gift Cards,Nigeria,2025-01-22
+MERCH20236,Pesa Cards,Groceries,Kenya,2024-01-27
+MERCH20237,Bright Travel,Groceries,Ghana,2025-12-20
+MERCH20238,Imara Tech,Crypto Exchange,Egypt,2025-10-17
+MERCH20239,Prime Pay,Transport,Ghana,2025-09-02
+MERCH20240,Imara Store,Airtime & Data,Nigeria,2024-07-05
+MERCH20241,Cloud Express,Restaurants,South Africa,2025-01-14
+MERCH20242,Sunrise Travel,Restaurants,Ghana,2024-05-11
+MERCH20243,Pesa Bet,Groceries,South Africa,2024-10-01
+MERCH20244,Jambo Express,Gaming,Egypt,2024-09-20
+MERCH20245,Nova Exchange,Airtime & Data,Rwanda,2025-05-14
+MERCH20246,Quick Bet,Retail,Nigeria,2023-06-08
+MERCH20247,Baobab Store,Money Transfer,South Africa,2023-03-05
+MERCH20248,Tula Pay,Gaming,South Africa,2022-11-18
+MERCH20249,Cloud Travel,Utilities,Nigeria,2025-01-20
+MERCH20250,Tula Mart,Utilities,Rwanda,2023-12-07
+MERCH20251,Kazi Pay,Groceries,Egypt,2022-08-25
+MERCH20252,Imara Express,Utilities,Nigeria,2025-09-25
+MERCH20253,Bright Foods,Airtime & Data,Rwanda,2025-11-27
+MERCH20254,Sunrise Wallet,Electronics,Nigeria,2024-01-24
+MERCH20255,Bright Store,Utilities,Nigeria,2025-03-24
+MERCH20256,Jambo Express,Utilities,Kenya,2023-05-22
+MERCH20257,Baobab Shop,Restaurants,Kenya,2022-11-30
+MERCH20258,Tula Mobile,Groceries,Kenya,2024-01-19
+MERCH20259,Swift Wallet,Airtime & Data,Uganda,2026-04-07
+MERCH20260,Metro Pay,Restaurants,Tanzania,2025-11-10
+MERCH20261,Pesa Wallet,Retail,South Africa,2026-04-02
+MERCH20262,Sunrise Travel,Transport,Nigeria,2023-02-13
+MERCH20263,Nova Exchange,Restaurants,Egypt,2024-09-04
+MERCH20264,Zawadi Wallet,Transport,Ghana,2023-07-12
+MERCH20265,Imara Mart,Money Transfer,Rwanda,2022-06-11
+MERCH20266,Jambo Exchange,Electronics,Kenya,2024-04-08
+MERCH20267,Jambo Exchange,Transport,Kenya,2025-11-16
+MERCH20268,Imara Store,Electronics,Nigeria,2023-04-10
+MERCH20269,Metro Tech,Airtime & Data,Tanzania,2026-01-05
+MERCH20270,Mega Store,Betting,South Africa,2024-07-30
+MERCH20271,Prime Hub,Education,Nigeria,2022-12-21
+MERCH20272,Prime Shop,Healthcare,Kenya,2025-10-15
+MERCH20273,Bright Express,Electronics,South Africa,2024-05-02
+MERCH20274,Afri Travel,Groceries,South Africa,2023-06-17
+MERCH20275,Quick Exchange,Groceries,Kenya,2026-02-20
+MERCH20276,Quick Games,Transport,Egypt,2023-04-25
+MERCH20277,Metro Store,Transport,Egypt,2025-10-15
+MERCH20278,Prime Plus,Gaming,Ghana,2022-06-21
+MERCH20279,Prime Wallet,Retail,Kenya,2026-03-25
+MERCH20280,Tula Mobile,Airtime & Data,Ghana,2025-11-07
+MERCH20281,Zawadi Pay,Retail,South Africa,2025-04-05
+MERCH20282,Quick Shop,Airtime & Data,Uganda,2025-03-13
+MERCH20283,Apex Shop,Education,Nigeria,2023-06-08
+MERCH20284,Jambo Store,Transport,Egypt,2022-09-13
+MERCH20285,Mega Hub,Utilities,Ghana,2025-04-05
+MERCH20286,Tula Mobile,Airtime & Data,Kenya,2026-03-24
+MERCH20287,Quick Mobile,Healthcare,Egypt,2024-02-21
+MERCH20288,Urban Tech,Betting,South Africa,2025-05-26
+MERCH20289,Afri Foods,Restaurants,Kenya,2025-03-26
+MERCH20290,Prime Cards,Electronics,South Africa,2023-02-14
+MERCH20291,Zawadi Foods,Restaurants,Ghana,2024-04-24
+MERCH20292,Afri Store,Restaurants,Nigeria,2026-02-28
+MERCH20293,Cloud Store,Transport,Kenya,2025-10-27
+MERCH20294,Cloud Express,Gift Cards,Tanzania,2024-04-07
+MERCH20295,Swift Mart,Airtime & Data,Uganda,2024-11-11
+MERCH20296,Mega Wallet,Restaurants,Uganda,2022-10-16
+MERCH20297,Sahara Games,Groceries,South Africa,2023-12-06
+MERCH20298,Cloud Mart,Transport,Kenya,2026-05-19
+MERCH20299,Nova Hub,Restaurants,South Africa,2023-06-27
+MERCH20300,Quick Foods,Groceries,Tanzania,2024-05-15
+MERCH20301,Zawadi Hub,Transport,Rwanda,2025-04-25
+MERCH20302,Prime Wallet,Education,South Africa,2023-09-18
+MERCH20303,Sahara Mart,Groceries,Nigeria,2025-12-03
+MERCH20304,Prime Mobile,Transport,Nigeria,2022-06-12
+MERCH20305,Apex Mobile,Money Transfer,South Africa,2026-03-05
+MERCH20306,Zawadi Shop,Retail,Egypt,2023-02-10
+MERCH20307,Pesa Express,Travel,Uganda,2026-01-06
+MERCH20308,Afri Express,Retail,Nigeria,2022-08-08
+MERCH20309,Jambo Bet,Utilities,Nigeria,2022-07-11
+MERCH20310,Kazi Travel,Utilities,Tanzania,2025-03-10
+MERCH20311,Mega Wallet,Utilities,Ghana,2024-11-05
+MERCH20312,Prime Plus,Healthcare,Nigeria,2025-01-26
+MERCH20313,Metro Store,Airtime & Data,Kenya,2025-04-15
+MERCH20314,Urban Wallet,Retail,Kenya,2024-05-03
+MERCH20315,Mega Games,Travel,Nigeria,2023-04-15
+MERCH20316,Bright Bet,Groceries,Kenya,2025-02-15
+MERCH20317,Mega Pay,Groceries,Rwanda,2023-08-24
+MERCH20318,Urban Cards,Electronics,Ghana,2024-06-07
+MERCH20319,Quick Wallet,Groceries,Egypt,2025-04-21
+MERCH20320,Mega Wallet,Utilities,Nigeria,2024-09-10
+MERCH20321,Jambo Hub,Restaurants,Uganda,2026-02-24
+MERCH20322,Cloud Pay,Gift Cards,Nigeria,2025-01-09
+MERCH20323,Pesa Hub,Retail,Nigeria,2023-03-15
+MERCH20324,Afri Tech,Groceries,South Africa,2022-07-08
+MERCH20325,Quick Mobile,Transport,South Africa,2025-05-25
+MERCH20326,Kazi Exchange,Restaurants,Nigeria,2026-01-20
+MERCH20327,Sunrise Express,Groceries,Kenya,2024-02-13
+MERCH20328,Zawadi Mobile,Retail,Kenya,2025-03-20
+MERCH20329,Jambo Hub,Healthcare,Nigeria,2023-08-29
+MERCH20330,Imara Hub,Gift Cards,Kenya,2022-12-06
+MERCH20331,Kazi Foods,Electronics,Ghana,2023-08-05
+MERCH20332,Nova Shop,Electronics,Nigeria,2025-12-02
+MERCH20333,Sunrise Games,Gaming,South Africa,2025-09-15
+MERCH20334,Sahara Cards,Airtime & Data,Ghana,2025-02-13
+MERCH20335,Sunrise Mart,Transport,Kenya,2022-08-25
+MERCH20336,Sunrise Foods,Gift Cards,Nigeria,2022-06-18
+MERCH20337,Urban Foods,Retail,South Africa,2025-05-28
+MERCH20338,Prime Wallet,Groceries,Ghana,2022-06-21
+MERCH20339,Sahara Hub,Betting,Nigeria,2023-06-17
+MERCH20340,Zawadi Mobile,Airtime & Data,Nigeria,2023-09-14
+MERCH20341,Bright Games,Airtime & Data,South Africa,2023-09-06
+MERCH20342,Prime Exchange,Transport,South Africa,2023-12-28
+MERCH20343,Afri Tech,Airtime & Data,South Africa,2025-04-06
+MERCH20344,Prime Exchange,Restaurants,South Africa,2023-07-05
+MERCH20345,Quick Store,Utilities,Nigeria,2024-05-17
+MERCH20346,Baobab Mobile,Groceries,Egypt,2024-05-07
+MERCH20347,Quick Express,Groceries,Tanzania,2022-08-25
+MERCH20348,Apex Store,Airtime & Data,Kenya,2024-02-21
+MERCH20349,Metro Store,Restaurants,Uganda,2025-07-30
+MERCH20350,Apex Mart,Travel,Nigeria,2022-07-02
+MERCH20351,Imara Shop,Utilities,Kenya,2024-03-26
+MERCH20352,Quick Foods,Healthcare,South Africa,2025-06-12
+MERCH20353,Sunrise Hub,Gaming,Nigeria,2023-12-27
+MERCH20354,Pesa Bet,Restaurants,Rwanda,2025-04-04
+MERCH20355,Bright Hub,Gift Cards,Nigeria,2024-08-17
+MERCH20356,Mega Shop,Healthcare,South Africa,2025-03-06
+MERCH20357,Tula Store,Betting,Kenya,2025-02-08
+MERCH20358,Pesa Plus,Airtime & Data,Nigeria,2023-10-19
+MERCH20359,Mega Mobile,Healthcare,South Africa,2026-03-14
+MERCH20360,Zawadi Games,Utilities,Kenya,2024-10-26
+MERCH20361,Sunrise Plus,Gaming,South Africa,2022-09-03
+MERCH20362,Cloud Exchange,Airtime & Data,Uganda,2026-01-21
+MERCH20363,Urban Bet,Utilities,Nigeria,2025-02-09
+MERCH20364,Kazi Bet,Retail,South Africa,2022-07-09
+MERCH20365,Sahara Exchange,Utilities,South Africa,2023-01-13
+MERCH20366,Apex Store,Airtime & Data,Tanzania,2022-06-18
+MERCH20367,Quick Tech,Restaurants,Kenya,2022-06-07
+MERCH20368,Quick Exchange,Utilities,South Africa,2025-09-17
+MERCH20369,Imara Hub,Groceries,Ghana,2025-09-22
+MERCH20370,Afri Foods,Airtime & Data,Ghana,2023-09-21
+MERCH20371,Imara Tech,Utilities,South Africa,2026-03-23
+MERCH20372,Pesa Travel,Healthcare,Egypt,2022-07-15
+MERCH20373,Imara Pay,Groceries,South Africa,2023-08-23
+MERCH20374,Baobab Exchange,Healthcare,Kenya,2025-03-04
+MERCH20375,Prime Plus,Retail,Ghana,2024-04-03
+MERCH20376,Nova Mobile,Retail,South Africa,2022-10-02
+MERCH20377,Swift Plus,Retail,Kenya,2024-10-07
+MERCH20378,Quick Mobile,Retail,Nigeria,2023-12-02
+MERCH20379,Cloud Plus,Retail,Kenya,2024-10-29
+MERCH20380,Cloud Cards,Restaurants,Nigeria,2024-05-15
+MERCH20381,Bright Mart,Airtime & Data,Egypt,2025-09-30
+MERCH20382,Afri Tech,Airtime & Data,Egypt,2024-12-03
+MERCH20383,Swift Express,Groceries,South Africa,2023-10-16
+MERCH20384,Kazi Pay,Restaurants,Kenya,2022-09-24
+MERCH20385,Bright Store,Retail,South Africa,2024-11-05
+MERCH20386,Tula Mart,Electronics,South Africa,2025-01-15
+MERCH20387,Urban Tech,Restaurants,Kenya,2022-10-07
+MERCH20388,Tula Foods,Electronics,Ghana,2026-03-10
+MERCH20389,Jambo Tech,Electronics,Ghana,2025-09-13
+MERCH20390,Cloud Express,Airtime & Data,South Africa,2023-02-01
+MERCH20391,Apex Games,Retail,South Africa,2025-01-25
+MERCH20392,Quick Foods,Airtime & Data,Kenya,2025-09-28
+MERCH20393,Baobab Hub,Groceries,Nigeria,2024-10-24
+MERCH20394,Quick Travel,Money Transfer,Egypt,2022-10-22
+MERCH20395,Cloud Tech,Travel,Ghana,2022-08-24
+MERCH20396,Baobab Express,Groceries,Egypt,2023-02-27
+MERCH20397,Jambo Cards,Healthcare,Nigeria,2022-08-13
+MERCH20398,Cloud Mart,Money Transfer,Uganda,2024-09-12
+MERCH20399,Mega Bet,Groceries,Ghana,2022-10-02
+MERCH20400,Afri Bet,Restaurants,Ghana,2022-07-23
+MERCH20401,Bright Exchange,Utilities,Nigeria,2023-05-05
+MERCH20402,Swift Plus,Retail,Egypt,2025-05-31
+MERCH20403,Apex Cards,Utilities,South Africa,2024-02-16
+MERCH20404,Mega Foods,Groceries,Tanzania,2022-08-24
+MERCH20405,Jambo Shop,Groceries,Nigeria,2024-02-29
+MERCH20406,Sahara Tech,Betting,Egypt,2024-04-25
+MERCH20407,Apex Pay,Groceries,Nigeria,2023-01-16
+MERCH20408,Metro Mart,Utilities,Nigeria,2025-11-12
+MERCH20409,Nova Mart,Transport,Rwanda,2024-03-10
+MERCH20410,Prime Shop,Healthcare,Nigeria,2022-09-24
+MERCH20411,Nova Hub,Groceries,Kenya,2024-06-23
+MERCH20412,Nova Shop,Retail,South Africa,2025-04-28
+MERCH20413,Quick Pay,Restaurants,Egypt,2022-10-26
+MERCH20414,Tula Plus,Utilities,Kenya,2025-11-04
+MERCH20415,Kazi Travel,Travel,Egypt,2022-11-30
+MERCH20416,Imara Bet,Gift Cards,Rwanda,2022-11-14
+MERCH20417,Prime Cards,Airtime & Data,Ghana,2025-05-22
+MERCH20418,Imara Shop,Utilities,Rwanda,2023-06-27
+MERCH20419,Imara Cards,Airtime & Data,Kenya,2026-05-27
+MERCH20420,Metro Shop,Gaming,South Africa,2024-01-11
+MERCH20421,Nova Mart,Electronics,Tanzania,2023-02-28
+MERCH20422,Swift Foods,Electronics,Nigeria,2025-03-13
+MERCH20423,Afri Exchange,Gaming,Egypt,2024-04-08
+MERCH20424,Swift Cards,Utilities,South Africa,2025-09-23
+MERCH20425,Imara Store,Money Transfer,Nigeria,2023-03-02
+MERCH20426,Apex Hub,Gaming,Uganda,2025-12-10
+MERCH20427,Urban Pay,Education,Nigeria,2022-08-27
+MERCH20428,Sahara Games,Restaurants,Kenya,2026-03-16
+MERCH20429,Urban Mart,Gaming,Nigeria,2023-02-19
+MERCH20430,Zawadi Foods,Groceries,Egypt,2023-04-16
+MERCH20431,Pesa Store,Airtime & Data,South Africa,2023-11-09
+MERCH20432,Nova Store,Groceries,South Africa,2024-07-22
+MERCH20433,Cloud Pay,Restaurants,Kenya,2024-08-09
+MERCH20434,Nova Games,Electronics,Egypt,2026-04-25
+MERCH20435,Quick Hub,Restaurants,South Africa,2024-07-05
+MERCH20436,Quick Mart,Retail,Kenya,2026-05-06
+MERCH20437,Sahara Hub,Restaurants,Nigeria,2024-03-20
+MERCH20438,Swift Shop,Groceries,Nigeria,2022-11-28
+MERCH20439,Imara Mart,Groceries,South Africa,2023-11-08
+MERCH20440,Sunrise Tech,Groceries,Nigeria,2025-11-27
+MERCH20441,Bright Hub,Travel,South Africa,2023-12-12
+MERCH20442,Pesa Tech,Groceries,Uganda,2024-09-29
+MERCH20443,Imara Hub,Airtime & Data,Nigeria,2022-06-05
+MERCH20444,Prime Mobile,Retail,Tanzania,2024-01-21
+MERCH20445,Jambo Plus,Retail,Nigeria,2023-04-23
+MERCH20446,Sahara Travel,Transport,Nigeria,2025-09-13
+MERCH20447,Swift Mobile,Retail,Kenya,2023-02-11
+MERCH20448,Nova Shop,Retail,South Africa,2022-10-19
+MERCH20449,Pesa Mobile,Healthcare,Egypt,2024-09-29
+MERCH20450,Zawadi Games,Airtime & Data,Kenya,2023-08-18
+MERCH20451,Sunrise Foods,Restaurants,Uganda,2024-03-14
+MERCH20452,Pesa Exchange,Restaurants,Nigeria,2024-08-22
+MERCH20453,Jambo Bet,Airtime & Data,South Africa,2023-04-17
+MERCH20454,Quick Tech,Crypto Exchange,Tanzania,2022-10-22
+MERCH20455,Quick Travel,Gaming,Ghana,2022-12-10
+MERCH20456,Urban Bet,Healthcare,Tanzania,2026-03-25
+MERCH20457,Mega Foods,Electronics,Egypt,2025-02-12
+MERCH20458,Cloud Bet,Money Transfer,Nigeria,2024-05-15
+MERCH20459,Mega Plus,Airtime & Data,Nigeria,2026-01-05
+MERCH20460,Prime Express,Retail,South Africa,2023-03-12
+MERCH20461,Mega Express,Airtime & Data,Tanzania,2023-06-09
+MERCH20462,Afri Mart,Gaming,Rwanda,2022-12-06
+MERCH20463,Urban Games,Transport,Kenya,2024-11-14
+MERCH20464,Imara Mobile,Retail,South Africa,2026-03-17
+MERCH20465,Mega Pay,Restaurants,Uganda,2023-01-23
+MERCH20466,Apex Cards,Transport,Nigeria,2026-05-14
+MERCH20467,Zawadi Travel,Airtime & Data,Ghana,2023-05-20
+MERCH20468,Jambo Foods,Retail,South Africa,2025-12-11
+MERCH20469,Imara Wallet,Utilities,Ghana,2023-02-24
+MERCH20470,Metro Travel,Utilities,Kenya,2022-08-10
+MERCH20471,Jambo Wallet,Utilities,Kenya,2024-07-31
+MERCH20472,Bright Travel,Utilities,South Africa,2025-09-28
+MERCH20473,Baobab Pay,Retail,Rwanda,2022-08-02
+MERCH20474,Bright Mart,Groceries,Kenya,2025-09-17
+MERCH20475,Prime Wallet,Airtime & Data,Ghana,2024-04-10
+MERCH20476,Metro Exchange,Retail,Kenya,2025-07-06
+MERCH20477,Zawadi Mobile,Utilities,Egypt,2026-01-06
+MERCH20478,Nova Foods,Airtime & Data,Egypt,2022-07-30
+MERCH20479,Cloud Bet,Retail,South Africa,2022-12-22
+MERCH20480,Quick Tech,Gaming,South Africa,2023-03-08
+MERCH20481,Metro Mobile,Airtime & Data,Egypt,2024-10-10
+MERCH20482,Sunrise Foods,Groceries,South Africa,2024-10-12
+MERCH20483,Kazi Travel,Healthcare,South Africa,2022-08-01
+MERCH20484,Prime Wallet,Gift Cards,South Africa,2023-05-17
+MERCH20485,Imara Plus,Crypto Exchange,Kenya,2024-08-13
+MERCH20486,Afri Shop,Restaurants,Nigeria,2023-12-26
+MERCH20487,Baobab Plus,Utilities,South Africa,2025-08-01
+MERCH20488,Zawadi Mart,Healthcare,Egypt,2025-04-27
+MERCH20489,Imara Express,Travel,Kenya,2023-03-13
+MERCH20490,Mega Express,Retail,Nigeria,2022-08-07
+MERCH20491,Metro Hub,Airtime & Data,Nigeria,2023-12-12
+MERCH20492,Mega Cards,Airtime & Data,Uganda,2024-10-21
+MERCH20493,Quick Bet,Restaurants,Nigeria,2024-01-30
+MERCH20494,Jambo Shop,Utilities,Kenya,2023-06-12
+MERCH20495,Swift Tech,Restaurants,Tanzania,2025-11-11
+MERCH20496,Urban Express,Travel,Nigeria,2024-03-29
+MERCH20497,Jambo Wallet,Retail,Tanzania,2022-08-02
+MERCH20498,Nova Cards,Airtime & Data,Kenya,2022-07-20
+MERCH20499,Urban Mart,Education,Uganda,2023-09-07
+MERCH20500,Kazi Pay,Airtime & Data,Uganda,2024-04-22
+MERCH20501,Swift Exchange,Utilities,Nigeria,2022-10-21
+MERCH20502,Tula Wallet,Groceries,Kenya,2024-11-07
+MERCH20503,Nova Hub,Money Transfer,Nigeria,2025-01-18
+MERCH20504,Sahara Store,Retail,Nigeria,2023-07-25
+MERCH20505,Bright Games,Groceries,Egypt,2024-06-19
+MERCH20506,Urban Wallet,Retail,Kenya,2025-08-26
+MERCH20507,Nova Express,Airtime & Data,Kenya,2024-07-19
+MERCH20508,Cloud Wallet,Airtime & Data,South Africa,2022-12-17
+MERCH20509,Pesa Exchange,Gaming,Egypt,2023-02-12
+MERCH20510,Urban Express,Betting,Kenya,2024-05-06
+MERCH20511,Imara Express,Electronics,Nigeria,2023-11-24
+MERCH20512,Sunrise Wallet,Utilities,South Africa,2025-09-30
+MERCH20513,Baobab Bet,Groceries,Nigeria,2025-11-28
+MERCH20514,Tula Tech,Groceries,South Africa,2025-09-24
+MERCH20515,Afri Plus,Groceries,South Africa,2024-11-19
+MERCH20516,Sunrise Tech,Gift Cards,Ghana,2024-10-12
+MERCH20517,Metro Mobile,Utilities,Egypt,2025-11-10
+MERCH20518,Apex Exchange,Electronics,Kenya,2024-05-17
+MERCH20519,Mega Cards,Airtime & Data,Kenya,2024-12-07
+MERCH20520,Quick Games,Electronics,Kenya,2023-06-05
+MERCH20521,Cloud Pay,Travel,Rwanda,2024-09-16
+MERCH20522,Sahara Foods,Airtime & Data,Nigeria,2023-09-25
+MERCH20523,Baobab Pay,Airtime & Data,Nigeria,2026-01-03
+MERCH20524,Bright Hub,Retail,Nigeria,2024-07-06
+MERCH20525,Zawadi Pay,Groceries,South Africa,2024-06-01
+MERCH20526,Cloud Foods,Groceries,Nigeria,2025-03-14
+MERCH20527,Tula Hub,Travel,South Africa,2025-04-14
+MERCH20528,Cloud Foods,Restaurants,Kenya,2026-02-20
+MERCH20529,Cloud Travel,Retail,Egypt,2022-11-22
+MERCH20530,Afri Games,Transport,Uganda,2025-12-11
+MERCH20531,Metro Mart,Airtime & Data,Nigeria,2023-02-26
+MERCH20532,Quick Mart,Electronics,Kenya,2026-04-18
+MERCH20533,Metro Games,Groceries,Nigeria,2024-03-26
+MERCH20534,Sunrise Hub,Groceries,Kenya,2026-04-22
+MERCH20535,Baobab Games,Betting,Tanzania,2023-10-15
+MERCH20536,Mega Foods,Gaming,Rwanda,2023-03-15
+MERCH20537,Afri Games,Groceries,Nigeria,2023-05-08
+MERCH20538,Sahara Exchange,Retail,Egypt,2022-11-20
+MERCH20539,Urban Express,Electronics,Egypt,2023-09-26
+MERCH20540,Tula Travel,Airtime & Data,Egypt,2024-12-16
+MERCH20541,Quick Hub,Groceries,Kenya,2025-02-23
+MERCH20542,Metro Store,Healthcare,Tanzania,2026-02-03
+MERCH20543,Prime Express,Electronics,Nigeria,2024-12-24
+MERCH20544,Baobab Express,Electronics,Egypt,2025-12-12
+MERCH20545,Zawadi Games,Utilities,Nigeria,2022-11-19
+MERCH20546,Jambo Cards,Transport,Uganda,2024-03-23
+MERCH20547,Quick Travel,Utilities,Nigeria,2026-05-09
+MERCH20548,Cloud Mart,Transport,Kenya,2023-10-22
+MERCH20549,Nova Plus,Retail,Kenya,2025-03-18
+MERCH20550,Swift Mobile,Transport,Nigeria,2025-09-30
+MERCH20551,Afri Foods,Airtime & Data,Nigeria,2023-04-23
+MERCH20552,Mega Wallet,Retail,Egypt,2024-03-24
+MERCH20553,Urban Exchange,Retail,Kenya,2022-10-07
+MERCH20554,Sahara Foods,Utilities,Nigeria,2023-02-22
+MERCH20555,Afri Plus,Groceries,South Africa,2025-12-20
+MERCH20556,Pesa Plus,Healthcare,Egypt,2022-10-06
+MERCH20557,Baobab Travel,Utilities,South Africa,2023-11-13
+MERCH20558,Urban Mart,Retail,Egypt,2024-12-31
+MERCH20559,Afri Cards,Groceries,Egypt,2023-05-03
+MERCH20560,Swift Foods,Airtime & Data,Kenya,2023-02-09
+MERCH20561,Urban Exchange,Groceries,Nigeria,2023-07-18
+MERCH20562,Urban Cards,Airtime & Data,Tanzania,2026-04-17
+MERCH20563,Imara Bet,Electronics,South Africa,2023-06-28
+MERCH20564,Jambo Pay,Transport,Rwanda,2022-12-07
+MERCH20565,Imara Tech,Utilities,Rwanda,2025-07-07
+MERCH20566,Quick Wallet,Groceries,Kenya,2024-04-29
+MERCH20567,Pesa Plus,Groceries,South Africa,2024-12-28
+MERCH20568,Metro Games,Money Transfer,Egypt,2025-08-15
+MERCH20569,Imara Cards,Airtime & Data,South Africa,2023-10-21
+MERCH20570,Pesa Cards,Crypto Exchange,Kenya,2022-09-10
+MERCH20571,Mega Plus,Retail,South Africa,2023-09-27
+MERCH20572,Swift Express,Crypto Exchange,Ghana,2023-09-02
+MERCH20573,Urban Express,Utilities,South Africa,2026-03-29
+MERCH20574,Apex Exchange,Betting,Egypt,2024-06-25
+MERCH20575,Metro Travel,Gaming,Kenya,2024-12-27
+MERCH20576,Bright Express,Utilities,Nigeria,2023-11-16
+MERCH20577,Zawadi Wallet,Crypto Exchange,Kenya,2025-04-23
+MERCH20578,Swift Games,Airtime & Data,South Africa,2022-08-21
+MERCH20579,Urban Hub,Utilities,Kenya,2023-08-10
+MERCH20580,Imara Store,Airtime & Data,Nigeria,2024-01-15
+MERCH20581,Tula Store,Groceries,Egypt,2026-05-16
+MERCH20582,Afri Mart,Transport,Kenya,2025-10-20
+MERCH20583,Tula Plus,Transport,Nigeria,2025-05-26
+MERCH20584,Cloud Exchange,Airtime & Data,Egypt,2023-06-01
+MERCH20585,Metro Games,Airtime & Data,Egypt,2023-05-18
+MERCH20586,Apex Mart,Groceries,Egypt,2025-12-22
+MERCH20587,Baobab Games,Healthcare,South Africa,2026-02-06
+MERCH20588,Bright Mart,Airtime & Data,South Africa,2024-07-12
+MERCH20589,Nova Shop,Retail,South Africa,2023-12-20
+MERCH20590,Nova Express,Retail,Ghana,2024-09-15
+MERCH20591,Nova Wallet,Electronics,Nigeria,2022-09-09
+MERCH20592,Cloud Hub,Transport,Kenya,2024-01-30
+MERCH20593,Prime Travel,Gift Cards,Tanzania,2023-12-01
+MERCH20594,Afri Tech,Transport,Ghana,2024-04-12
+MERCH20595,Jambo Exchange,Airtime & Data,Egypt,2025-08-26
+MERCH20596,Sahara Games,Money Transfer,Ghana,2025-08-07
+MERCH20597,Pesa Tech,Retail,South Africa,2024-02-23
+MERCH20598,Imara Exchange,Utilities,Rwanda,2025-07-05
+MERCH20599,Nova Travel,Transport,Kenya,2024-06-30
+MERCH20600,Zawadi Travel,Groceries,Nigeria,2026-04-10
+MERCH20601,Sunrise Store,Airtime & Data,Nigeria,2024-05-06
+MERCH20602,Metro Mart,Groceries,Tanzania,2022-07-13
+MERCH20603,Baobab Plus,Groceries,Kenya,2026-03-26
+MERCH20604,Baobab Travel,Utilities,Tanzania,2024-08-04
+MERCH20605,Mega Games,Transport,Kenya,2022-08-04
+MERCH20606,Cloud Travel,Retail,Rwanda,2024-12-15
+MERCH20607,Swift Wallet,Restaurants,Kenya,2023-07-07
+MERCH20608,Baobab Mobile,Transport,Kenya,2022-08-12
+MERCH20609,Prime Games,Utilities,Uganda,2025-07-11
+MERCH20610,Baobab Exchange,Education,Uganda,2026-04-25
+MERCH20611,Baobab Travel,Retail,Nigeria,2022-08-28
+MERCH20612,Cloud Games,Groceries,South Africa,2024-07-21
+MERCH20613,Kazi Shop,Retail,Kenya,2023-10-19
+MERCH20614,Zawadi Tech,Groceries,Uganda,2026-05-21
+MERCH20615,Quick Pay,Healthcare,Tanzania,2025-11-19
+MERCH20616,Jambo Pay,Utilities,Tanzania,2025-05-31
+MERCH20617,Quick Pay,Groceries,Tanzania,2022-10-24
+MERCH20618,Mega Mart,Utilities,Ghana,2023-04-20
+MERCH20619,Apex Express,Retail,Nigeria,2023-01-28
+MERCH20620,Cloud Plus,Education,Rwanda,2026-03-20
+MERCH20621,Baobab Exchange,Airtime & Data,Nigeria,2023-09-21
+MERCH20622,Metro Tech,Airtime & Data,Rwanda,2022-07-12
+MERCH20623,Metro Shop,Restaurants,Nigeria,2025-04-18
+MERCH20624,Apex Express,Money Transfer,South Africa,2025-05-16
+MERCH20625,Urban Mobile,Travel,Ghana,2023-11-20
+MERCH20626,Pesa Bet,Gaming,Nigeria,2026-04-07
+MERCH20627,Sahara Cards,Electronics,Nigeria,2025-09-22
+MERCH20628,Pesa Bet,Restaurants,Egypt,2024-08-28
+MERCH20629,Cloud Wallet,Transport,Nigeria,2022-06-08
+MERCH20630,Mega Store,Retail,South Africa,2025-12-17
+MERCH20631,Baobab Wallet,Crypto Exchange,Ghana,2022-09-04
+MERCH20632,Sunrise Store,Electronics,Kenya,2024-02-13
+MERCH20633,Nova Shop,Retail,Nigeria,2025-10-10
+MERCH20634,Sunrise Mobile,Healthcare,Nigeria,2023-12-28
+MERCH20635,Kazi Plus,Betting,Nigeria,2023-12-13
+MERCH20636,Swift Store,Utilities,Kenya,2026-03-05
+MERCH20637,Baobab Travel,Betting,Kenya,2024-06-05
+MERCH20638,Quick Exchange,Airtime & Data,Egypt,2026-02-22
+MERCH20639,Imara Tech,Airtime & Data,Nigeria,2026-01-13
+MERCH20640,Kazi Games,Utilities,Tanzania,2025-07-03
+MERCH20641,Apex Express,Airtime & Data,Kenya,2022-12-14
+MERCH20642,Apex Plus,Retail,Egypt,2023-05-02
+MERCH20643,Kazi Mart,Utilities,Nigeria,2024-12-04
+MERCH20644,Prime Express,Utilities,South Africa,2023-10-26
+MERCH20645,Swift Shop,Airtime & Data,South Africa,2025-05-25
+MERCH20646,Nova Tech,Groceries,Kenya,2025-07-30
+MERCH20647,Pesa Express,Healthcare,Kenya,2024-04-04
+MERCH20648,Pesa Games,Utilities,Tanzania,2024-08-01
+MERCH20649,Metro Exchange,Money Transfer,Nigeria,2023-05-30
+MERCH20650,Jambo Hub,Restaurants,Kenya,2025-04-28
+MERCH20651,Prime Express,Restaurants,South Africa,2022-06-30
+MERCH20652,Zawadi Tech,Betting,Kenya,2022-12-06
+MERCH20653,Sahara Travel,Groceries,South Africa,2024-09-13
+MERCH20654,Pesa Foods,Education,Nigeria,2022-06-21
+MERCH20655,Sahara Shop,Retail,Nigeria,2023-03-01
+MERCH20656,Apex Pay,Healthcare,Kenya,2023-07-18
+MERCH20657,Quick Games,Gift Cards,Nigeria,2023-05-23
+MERCH20658,Baobab Hub,Groceries,Nigeria,2025-06-07
+MERCH20659,Prime Pay,Healthcare,Egypt,2023-10-05
+MERCH20660,Apex Exchange,Education,Ghana,2025-12-23
+MERCH20661,Cloud Games,Restaurants,Uganda,2024-10-03
+MERCH20662,Metro Games,Utilities,Kenya,2025-07-07
+MERCH20663,Quick Bet,Utilities,Ghana,2025-12-14
+MERCH20664,Cloud Tech,Restaurants,Nigeria,2024-03-25
+MERCH20665,Imara Mart,Healthcare,Ghana,2025-05-22
+MERCH20666,Prime Foods,Retail,Kenya,2025-09-09
+MERCH20667,Prime Wallet,Groceries,Nigeria,2024-08-20
+MERCH20668,Pesa Games,Groceries,South Africa,2024-09-18
+MERCH20669,Nova Tech,Airtime & Data,Egypt,2022-10-28
+MERCH20670,Pesa Tech,Groceries,Ghana,2024-06-08
+MERCH20671,Quick Tech,Groceries,Nigeria,2023-02-22
+MERCH20672,Apex Games,Education,Nigeria,2024-02-13
+MERCH20673,Prime Mart,Retail,Ghana,2023-06-28
+MERCH20674,Prime Hub,Healthcare,Ghana,2025-04-24
+MERCH20675,Zawadi Express,Airtime & Data,Egypt,2024-10-16
+MERCH20676,Quick Games,Groceries,Uganda,2026-05-25
+MERCH20677,Zawadi Mart,Groceries,Kenya,2025-02-16
+MERCH20678,Prime Mart,Groceries,Uganda,2025-12-19
+MERCH20679,Sunrise Express,Money Transfer,South Africa,2023-07-29
+MERCH20680,Pesa Plus,Gift Cards,Nigeria,2025-03-28
+MERCH20681,Sahara Tech,Utilities,Kenya,2024-08-27
+MERCH20682,Jambo Mobile,Betting,South Africa,2025-10-20
+MERCH20683,Imara Plus,Airtime & Data,South Africa,2025-05-12
+MERCH20684,Prime Travel,Healthcare,Tanzania,2025-05-30
+MERCH20685,Kazi Travel,Restaurants,Nigeria,2024-09-19
+MERCH20686,Mega Mobile,Transport,Ghana,2025-09-02
+MERCH20687,Jambo Cards,Money Transfer,South Africa,2026-04-18
+MERCH20688,Pesa Shop,Money Transfer,Egypt,2023-08-21
+MERCH20689,Metro Shop,Money Transfer,Tanzania,2023-03-19
+MERCH20690,Sahara Hub,Airtime & Data,South Africa,2022-12-14
+MERCH20691,Imara Tech,Electronics,Nigeria,2025-01-27
+MERCH20692,Apex Mobile,Airtime & Data,Ghana,2024-04-27
+MERCH20693,Afri Tech,Utilities,Ghana,2022-08-11
+MERCH20694,Imara Hub,Airtime & Data,Rwanda,2024-06-04
+MERCH20695,Apex Travel,Airtime & Data,Ghana,2022-09-07
+MERCH20696,Urban Travel,Transport,Kenya,2024-02-28
+MERCH20697,Baobab Exchange,Transport,Egypt,2022-06-06
+MERCH20698,Sunrise Foods,Restaurants,Nigeria,2023-02-06
+MERCH20699,Pesa Express,Travel,Ghana,2023-09-08
+MERCH20700,Imara Pay,Groceries,Egypt,2026-01-19
+MERCH20701,Quick Travel,Money Transfer,Rwanda,2022-07-15
+MERCH20702,Tula Plus,Electronics,Egypt,2023-04-29
+MERCH20703,Baobab Bet,Airtime & Data,Nigeria,2025-11-15
+MERCH20704,Kazi Tech,Transport,Kenya,2026-04-20
+MERCH20705,Tula Exchange,Restaurants,Rwanda,2024-06-06
+MERCH20706,Sahara Plus,Groceries,Kenya,2026-04-06
+MERCH20707,Baobab Cards,Gift Cards,Kenya,2025-04-04
+MERCH20708,Tula Travel,Airtime & Data,Tanzania,2023-11-16
+MERCH20709,Swift Travel,Money Transfer,Nigeria,2025-03-15
+MERCH20710,Imara Wallet,Electronics,Kenya,2025-08-24
+MERCH20711,Tula Exchange,Electronics,South Africa,2025-12-23
+MERCH20712,Imara Mobile,Groceries,Nigeria,2024-02-02
+MERCH20713,Sunrise Hub,Money Transfer,Nigeria,2022-10-29
+MERCH20714,Prime Store,Retail,South Africa,2025-03-19
+MERCH20715,Swift Mobile,Money Transfer,Rwanda,2022-08-04
+MERCH20716,Metro Mart,Restaurants,Kenya,2024-09-01
+MERCH20717,Swift Travel,Healthcare,Nigeria,2025-04-07
+MERCH20718,Tula Wallet,Airtime & Data,Tanzania,2024-07-08
+MERCH20719,Swift Travel,Electronics,Kenya,2025-09-12
+MERCH20720,Pesa Express,Crypto Exchange,Rwanda,2025-09-03
+MERCH20721,Nova Wallet,Airtime & Data,Nigeria,2022-06-19
+MERCH20722,Urban Foods,Airtime & Data,South Africa,2025-03-26
+MERCH20723,Sahara Store,Electronics,Kenya,2024-07-30
+MERCH20724,Nova Hub,Retail,Nigeria,2023-12-12
+MERCH20725,Mega Mobile,Airtime & Data,Ghana,2024-01-05
+MERCH20726,Apex Store,Gift Cards,Rwanda,2025-10-28
+MERCH20727,Sahara Bet,Groceries,Nigeria,2026-01-21
+MERCH20728,Pesa Express,Money Transfer,Uganda,2024-12-07
+MERCH20729,Jambo Express,Groceries,Kenya,2025-03-16
+MERCH20730,Pesa Plus,Healthcare,Kenya,2024-05-11
+MERCH20731,Cloud Foods,Airtime & Data,Tanzania,2026-05-03
+MERCH20732,Afri Cards,Education,South Africa,2025-04-10
+MERCH20733,Sahara Express,Healthcare,Kenya,2023-10-28
+MERCH20734,Pesa Cards,Airtime & Data,Kenya,2025-11-12
+MERCH20735,Nova Travel,Airtime & Data,Egypt,2022-12-24
+MERCH20736,Zawadi Games,Electronics,Kenya,2022-09-12
+MERCH20737,Pesa Mobile,Groceries,Ghana,2025-05-25
+MERCH20738,Quick Games,Airtime & Data,Tanzania,2025-02-09
+MERCH20739,Tula Store,Utilities,South Africa,2025-06-01
+MERCH20740,Pesa Tech,Retail,Uganda,2022-11-13
+MERCH20741,Nova Plus,Utilities,Kenya,2024-02-05
+MERCH20742,Afri Travel,Education,Nigeria,2025-02-26
+MERCH20743,Afri Mobile,Electronics,Kenya,2023-03-06
+MERCH20744,Swift Exchange,Airtime & Data,Nigeria,2025-06-08
+MERCH20745,Bright Mobile,Retail,Egypt,2022-09-23
+MERCH20746,Nova Hub,Retail,Tanzania,2024-06-05
+MERCH20747,Baobab Pay,Utilities,Kenya,2024-12-22
+MERCH20748,Imara Exchange,Electronics,Nigeria,2025-09-10
+MERCH20749,Tula Travel,Airtime & Data,Nigeria,2023-03-18
+MERCH20750,Sunrise Mart,Transport,Nigeria,2025-10-08
+MERCH20751,Tula Mart,Money Transfer,Kenya,2022-09-19
+MERCH20752,Metro Store,Healthcare,Egypt,2024-03-14
+MERCH20753,Tula Plus,Restaurants,Tanzania,2024-12-17
+MERCH20754,Nova Shop,Retail,Kenya,2023-12-29
+MERCH20755,Metro Bet,Gaming,Uganda,2024-11-28
+MERCH20756,Zawadi Express,Transport,Egypt,2023-01-31
+MERCH20757,Pesa Exchange,Retail,Nigeria,2024-07-14
+MERCH20758,Sahara Travel,Restaurants,South Africa,2026-02-24
+MERCH20759,Swift Exchange,Electronics,Ghana,2025-06-09
+MERCH20760,Pesa Wallet,Utilities,Kenya,2026-01-17
+MERCH20761,Tula Store,Education,Kenya,2023-11-05
+MERCH20762,Bright Mart,Retail,South Africa,2023-02-13
+MERCH20763,Jambo Exchange,Groceries,Kenya,2024-06-25
+MERCH20764,Jambo Travel,Money Transfer,Egypt,2022-08-12
+MERCH20765,Zawadi Cards,Transport,South Africa,2026-03-24
+MERCH20766,Metro Games,Transport,South Africa,2025-01-03
+MERCH20767,Prime Store,Transport,Ghana,2023-06-29
+MERCH20768,Nova Mobile,Gaming,South Africa,2023-12-03
+MERCH20769,Quick Plus,Retail,Uganda,2022-12-02
+MERCH20770,Pesa Tech,Electronics,Ghana,2025-11-30
+MERCH20771,Swift Cards,Retail,Nigeria,2023-12-13
+MERCH20772,Jambo Pay,Travel,South Africa,2026-02-07
+MERCH20773,Sahara Bet,Electronics,Nigeria,2024-06-05
+MERCH20774,Prime Shop,Crypto Exchange,Tanzania,2022-12-19
+MERCH20775,Pesa Mobile,Transport,Nigeria,2025-08-19
+MERCH20776,Apex Travel,Airtime & Data,Nigeria,2023-04-03
+MERCH20777,Bright Express,Gaming,Kenya,2024-05-12
+MERCH20778,Cloud Mart,Healthcare,Nigeria,2022-08-23
+MERCH20779,Tula Mart,Transport,Ghana,2025-01-17
+MERCH20780,Zawadi Foods,Electronics,Kenya,2025-09-30
+MERCH20781,Prime Express,Retail,Rwanda,2024-10-23
+MERCH20782,Cloud Games,Education,South Africa,2024-11-22
+MERCH20783,Zawadi Games,Crypto Exchange,Egypt,2024-03-22
+MERCH20784,Urban Hub,Education,Kenya,2026-03-12
+MERCH20785,Mega Mobile,Electronics,Nigeria,2025-08-09
+MERCH20786,Cloud Mart,Education,Nigeria,2023-04-28
+MERCH20787,Bright Exchange,Healthcare,South Africa,2022-11-22
+MERCH20788,Prime Cards,Healthcare,Ghana,2024-10-07
+MERCH20789,Jambo Plus,Crypto Exchange,Nigeria,2025-06-04
+MERCH20790,Cloud Games,Healthcare,Egypt,2023-12-25
+MERCH20791,Pesa Bet,Groceries,South Africa,2024-12-01
+MERCH20792,Metro Travel,Utilities,Nigeria,2024-08-18
+MERCH20793,Imara Wallet,Airtime & Data,Tanzania,2026-03-12
+MERCH20794,Sunrise Shop,Education,Kenya,2023-08-01
+MERCH20795,Imara Games,Utilities,Ghana,2023-07-29
+MERCH20796,Quick Wallet,Gaming,Tanzania,2025-01-27
+MERCH20797,Baobab Express,Utilities,South Africa,2023-02-06
+MERCH20798,Apex Shop,Money Transfer,Ghana,2025-07-03
+MERCH20799,Urban Wallet,Gaming,Kenya,2023-07-30
+MERCH20800,Kazi Express,Crypto Exchange,Kenya,2024-03-23
+MERCH20801,Sahara Foods,Groceries,South Africa,2023-05-21
+MERCH20802,Mega Tech,Retail,Nigeria,2025-04-05
+MERCH20803,Afri Shop,Electronics,Nigeria,2025-11-10
+MERCH20804,Urban Store,Gaming,Nigeria,2025-03-09
+MERCH20805,Kazi Mobile,Retail,Kenya,2024-12-24
+MERCH20806,Jambo Bet,Utilities,South Africa,2026-05-07
+MERCH20807,Swift Cards,Airtime & Data,Nigeria,2024-06-11
+MERCH20808,Apex Bet,Restaurants,Kenya,2023-06-09
+MERCH20809,Sahara Foods,Travel,Uganda,2025-05-26
+MERCH20810,Afri Cards,Betting,Ghana,2024-02-06
+MERCH20811,Baobab Store,Restaurants,Nigeria,2022-08-30
+MERCH20812,Mega Travel,Gift Cards,South Africa,2024-10-28
+MERCH20813,Jambo Travel,Education,Tanzania,2023-12-06
+MERCH20814,Apex Exchange,Restaurants,Nigeria,2022-06-11
+MERCH20815,Afri Wallet,Groceries,Uganda,2023-10-21
+MERCH20816,Urban Exchange,Retail,South Africa,2025-04-21
+MERCH20817,Prime Store,Restaurants,Nigeria,2026-02-04
+MERCH20818,Kazi Travel,Groceries,South Africa,2026-01-30
+MERCH20819,Urban Bet,Gaming,South Africa,2023-09-20
+MERCH20820,Nova Express,Groceries,Uganda,2025-12-11
+MERCH20821,Prime Cards,Betting,Tanzania,2023-08-14
+MERCH20822,Quick Store,Groceries,South Africa,2022-09-30
+MERCH20823,Metro Mobile,Utilities,South Africa,2026-03-04
+MERCH20824,Zawadi Store,Education,Kenya,2024-01-28
+MERCH20825,Nova Wallet,Betting,Egypt,2025-09-20
+MERCH20826,Metro Mart,Groceries,Egypt,2025-11-21
+MERCH20827,Afri Bet,Airtime & Data,Rwanda,2025-05-15
+MERCH20828,Kazi Hub,Transport,Nigeria,2023-12-12
+MERCH20829,Baobab Games,Betting,Ghana,2022-08-22
+MERCH20830,Mega Plus,Restaurants,Rwanda,2025-09-23
+MERCH20831,Pesa Mart,Transport,South Africa,2023-05-29
+MERCH20832,Tula Tech,Airtime & Data,Nigeria,2026-01-24
+MERCH20833,Zawadi Cards,Groceries,Kenya,2023-03-17
+MERCH20834,Kazi Tech,Groceries,Rwanda,2022-10-01
+MERCH20835,Kazi Tech,Healthcare,South Africa,2025-10-23
+MERCH20836,Jambo Tech,Gaming,Egypt,2022-10-30
+MERCH20837,Nova Travel,Utilities,Kenya,2026-02-25
+MERCH20838,Tula Wallet,Transport,South Africa,2023-03-24
+MERCH20839,Baobab Bet,Electronics,Uganda,2025-02-14
+MERCH20840,Zawadi Express,Airtime & Data,South Africa,2023-09-27
+MERCH20841,Pesa Store,Restaurants,Nigeria,2025-10-31
+MERCH20842,Sunrise Cards,Gaming,Nigeria,2023-06-24
+MERCH20843,Prime Mobile,Airtime & Data,Kenya,2024-04-30
+MERCH20844,Prime Store,Airtime & Data,Kenya,2024-12-29
+MERCH20845,Zawadi Travel,Groceries,Nigeria,2022-12-16
+MERCH20846,Zawadi Tech,Transport,South Africa,2023-12-27
+MERCH20847,Zawadi Store,Restaurants,Tanzania,2025-05-14
+MERCH20848,Urban Games,Gift Cards,Rwanda,2026-05-24
+MERCH20849,Zawadi Store,Transport,Kenya,2025-12-11
+MERCH20850,Prime Exchange,Utilities,Nigeria,2026-04-27
+MERCH20851,Apex Wallet,Groceries,Kenya,2025-11-15
+MERCH20852,Metro Mart,Gaming,Nigeria,2025-05-04
+MERCH20853,Nova Mobile,Electronics,South Africa,2023-03-28
+MERCH20854,Urban Foods,Transport,Nigeria,2023-02-11
+MERCH20855,Prime Games,Restaurants,Egypt,2026-04-03
+MERCH20856,Quick Foods,Groceries,Kenya,2022-11-26
+MERCH20857,Urban Mart,Transport,South Africa,2024-03-07
+MERCH20858,Kazi Exchange,Groceries,Rwanda,2023-02-14
+MERCH20859,Bright Travel,Electronics,Kenya,2024-05-22
+MERCH20860,Apex Foods,Gaming,Rwanda,2023-09-26
+MERCH20861,Swift Mart,Gaming,Egypt,2024-05-24
+MERCH20862,Cloud Pay,Groceries,Nigeria,2025-10-23
+MERCH20863,Zawadi Shop,Restaurants,Nigeria,2023-04-26
+MERCH20864,Bright Store,Transport,Kenya,2026-03-31
+MERCH20865,Mega Tech,Restaurants,South Africa,2024-05-18
+MERCH20866,Metro Games,Healthcare,South Africa,2023-11-14
+MERCH20867,Tula Games,Retail,Kenya,2024-09-24
+MERCH20868,Afri Mart,Groceries,Ghana,2025-08-14
+MERCH20869,Sahara Games,Utilities,Uganda,2026-02-25
+MERCH20870,Metro Bet,Healthcare,Rwanda,2023-04-12
+MERCH20871,Mega Tech,Travel,Egypt,2026-04-03
+MERCH20872,Pesa Exchange,Groceries,Kenya,2025-01-20
+MERCH20873,Nova Shop,Airtime & Data,Nigeria,2023-04-24
+MERCH20874,Kazi Express,Utilities,South Africa,2022-10-28
+MERCH20875,Imara Express,Betting,Kenya,2022-12-20
+MERCH20876,Quick Shop,Airtime & Data,Tanzania,2022-10-06
+MERCH20877,Swift Hub,Restaurants,South Africa,2023-04-05
+MERCH20878,Imara Cards,Electronics,Nigeria,2025-07-14
+MERCH20879,Imara Mobile,Groceries,Tanzania,2023-08-25
+MERCH20880,Quick Hub,Airtime & Data,South Africa,2023-10-14
+MERCH20881,Metro Mobile,Gaming,Egypt,2024-07-29
+MERCH20882,Apex Mart,Healthcare,South Africa,2023-03-19
+MERCH20883,Prime Bet,Retail,Uganda,2024-03-22
+MERCH20884,Afri Plus,Healthcare,Tanzania,2023-12-16
+MERCH20885,Prime Mart,Healthcare,Uganda,2022-06-15
+MERCH20886,Metro Mart,Utilities,Uganda,2025-09-24
+MERCH20887,Pesa Store,Betting,South Africa,2022-08-12
+MERCH20888,Baobab Hub,Airtime & Data,Tanzania,2025-06-07
+MERCH20889,Metro Travel,Restaurants,Nigeria,2025-05-01
+MERCH20890,Swift Store,Groceries,Kenya,2023-11-28
+MERCH20891,Imara Bet,Retail,Ghana,2025-09-15
+MERCH20892,Sahara Travel,Transport,Kenya,2024-07-23
+MERCH20893,Pesa Hub,Retail,Kenya,2025-07-24
+MERCH20894,Apex Store,Electronics,South Africa,2025-08-05
+MERCH20895,Metro Wallet,Airtime & Data,Nigeria,2022-06-08
+MERCH20896,Metro Hub,Transport,Kenya,2025-02-09
+MERCH20897,Imara Wallet,Utilities,Nigeria,2024-04-06
+MERCH20898,Nova Express,Betting,Ghana,2023-01-01
+MERCH20899,Mega Wallet,Electronics,Ghana,2026-02-25
+MERCH20900,Metro Games,Utilities,Nigeria,2023-09-30
+MERCH20901,Prime Shop,Groceries,South Africa,2026-05-22
+MERCH20902,Sunrise Hub,Utilities,Nigeria,2024-08-09
+MERCH20903,Apex Pay,Utilities,South Africa,2026-05-01
+MERCH20904,Metro Exchange,Education,Kenya,2025-01-25
+MERCH20905,Prime Pay,Groceries,Kenya,2025-12-03
+MERCH20906,Jambo Plus,Airtime & Data,Nigeria,2022-10-15
+MERCH20907,Cloud Exchange,Restaurants,Tanzania,2024-12-19
+MERCH20908,Zawadi Pay,Groceries,South Africa,2025-05-18
+MERCH20909,Tula Shop,Airtime & Data,South Africa,2025-11-29
+MERCH20910,Swift Games,Electronics,Kenya,2026-05-05
+MERCH20911,Sahara Games,Money Transfer,Kenya,2026-01-19
+MERCH20912,Prime Foods,Restaurants,South Africa,2024-06-27
+MERCH20913,Metro Plus,Education,South Africa,2024-09-22
+MERCH20914,Kazi Store,Money Transfer,Nigeria,2026-05-22
+MERCH20915,Quick Pay,Groceries,Uganda,2022-12-15
+MERCH20916,Urban Store,Travel,Rwanda,2024-03-22
+MERCH20917,Jambo Tech,Money Transfer,Kenya,2023-02-12
+MERCH20918,Imara Plus,Education,Nigeria,2024-09-01
+MERCH20919,Urban Foods,Restaurants,Rwanda,2025-02-25
+MERCH20920,Baobab Mart,Retail,Egypt,2022-07-16
+MERCH20921,Sahara Cards,Utilities,Nigeria,2024-12-16
+MERCH20922,Afri Mart,Electronics,Tanzania,2025-12-10
+MERCH20923,Metro Hub,Education,South Africa,2024-02-01
+MERCH20924,Urban Wallet,Transport,Ghana,2026-02-05
+MERCH20925,Baobab Mobile,Travel,Egypt,2022-11-11
+MERCH20926,Jambo Mobile,Groceries,Nigeria,2022-08-08
+MERCH20927,Cloud Hub,Retail,Nigeria,2023-04-18
+MERCH20928,Zawadi Store,Airtime & Data,Nigeria,2026-01-03
+MERCH20929,Imara Mart,Transport,Nigeria,2026-05-27
+MERCH20930,Metro Cards,Groceries,Kenya,2023-03-07
+MERCH20931,Metro Shop,Airtime & Data,Nigeria,2022-06-14
+MERCH20932,Urban Bet,Groceries,Kenya,2025-03-03
+MERCH20933,Pesa Plus,Restaurants,South Africa,2025-09-27
+MERCH20934,Jambo Tech,Gaming,Uganda,2023-12-26
+MERCH20935,Urban Mobile,Groceries,Egypt,2024-11-13
+MERCH20936,Nova Wallet,Gaming,Nigeria,2025-11-15
+MERCH20937,Sunrise Hub,Education,Ghana,2022-08-01
+MERCH20938,Apex Cards,Gaming,South Africa,2025-12-04
+MERCH20939,Afri Hub,Travel,Uganda,2024-02-11
+MERCH20940,Kazi Wallet,Restaurants,Uganda,2026-02-10
+MERCH20941,Afri Hub,Restaurants,South Africa,2025-09-02
+MERCH20942,Baobab Tech,Groceries,Nigeria,2022-12-27
+MERCH20943,Afri Exchange,Retail,Nigeria,2024-11-18
+MERCH20944,Urban Hub,Retail,Kenya,2023-07-15
+MERCH20945,Prime Mart,Electronics,Kenya,2026-02-11
+MERCH20946,Kazi Tech,Transport,Nigeria,2026-04-06
+MERCH20947,Sunrise Bet,Airtime & Data,Kenya,2026-04-05
+MERCH20948,Kazi Mart,Utilities,South Africa,2023-06-13
+MERCH20949,Afri Plus,Electronics,Kenya,2025-09-20
+MERCH20950,Zawadi Tech,Retail,Egypt,2022-11-05
+MERCH20951,Prime Store,Groceries,Nigeria,2025-04-25
+MERCH20952,Tula Travel,Travel,Tanzania,2022-11-11
+MERCH20953,Mega Wallet,Restaurants,Kenya,2022-11-06
+MERCH20954,Bright Games,Airtime & Data,Kenya,2026-03-03
+MERCH20955,Sahara Bet,Groceries,Egypt,2025-06-22
+MERCH20956,Nova Games,Utilities,South Africa,2022-08-23
+MERCH20957,Apex Store,Groceries,Kenya,2024-12-17
+MERCH20958,Tula Tech,Electronics,Uganda,2025-07-10
+MERCH20959,Pesa Games,Transport,South Africa,2023-12-07
+MERCH20960,Jambo Express,Gift Cards,Ghana,2025-08-20
+MERCH20961,Cloud Bet,Utilities,South Africa,2025-07-25
+MERCH20962,Quick Mart,Airtime & Data,South Africa,2023-09-27
+MERCH20963,Cloud Tech,Healthcare,Kenya,2024-03-10
+MERCH20964,Baobab Wallet,Retail,Tanzania,2023-09-14
+MERCH20965,Prime Cards,Retail,Tanzania,2025-03-23
+MERCH20966,Nova Foods,Groceries,South Africa,2025-09-21
+MERCH20967,Pesa Exchange,Groceries,Ghana,2025-04-01
+MERCH20968,Sunrise Travel,Electronics,Egypt,2023-12-27
+MERCH20969,Kazi Express,Education,Kenya,2025-06-16
+MERCH20970,Baobab Games,Groceries,Uganda,2026-01-20
+MERCH20971,Quick Plus,Travel,Uganda,2023-10-22
+MERCH20972,Bright Wallet,Electronics,Nigeria,2026-01-16
+MERCH20973,Sunrise Hub,Utilities,South Africa,2023-02-26
+MERCH20974,Prime Bet,Transport,South Africa,2026-01-06
+MERCH20975,Zawadi Shop,Airtime & Data,Egypt,2025-04-29
+MERCH20976,Prime Hub,Money Transfer,Egypt,2024-10-07
+MERCH20977,Urban Mobile,Utilities,South Africa,2024-01-02
+MERCH20978,Nova Mobile,Travel,Egypt,2025-05-19
+MERCH20979,Apex Express,Healthcare,Nigeria,2026-04-22
+MERCH20980,Pesa Shop,Utilities,Ghana,2025-12-04
+MERCH20981,Swift Exchange,Money Transfer,Tanzania,2026-05-26
+MERCH20982,Urban Games,Travel,South Africa,2026-05-18
+MERCH20983,Zawadi Travel,Healthcare,Egypt,2026-03-11
+MERCH20984,Cloud Wallet,Retail,Nigeria,2024-09-03
+MERCH20985,Tula Hub,Transport,Ghana,2024-04-18
+MERCH20986,Kazi Shop,Healthcare,Kenya,2024-01-02
+MERCH20987,Swift Hub,Groceries,South Africa,2026-03-12
+MERCH20988,Mega Plus,Restaurants,South Africa,2024-01-03
+MERCH20989,Zawadi Shop,Betting,Rwanda,2022-07-27
+MERCH20990,Sunrise Shop,Electronics,Ghana,2023-03-16
+MERCH20991,Nova Tech,Groceries,Ghana,2024-12-30
+MERCH20992,Urban Express,Money Transfer,Ghana,2024-10-09
+MERCH20993,Pesa Mobile,Groceries,Tanzania,2026-04-28
+MERCH20994,Tula Wallet,Education,South Africa,2026-04-09
+MERCH20995,Bright Store,Airtime & Data,Ghana,2022-06-19
+MERCH20996,Afri Bet,Airtime & Data,Nigeria,2025-09-06
+MERCH20997,Pesa Mart,Retail,Rwanda,2025-06-16
+MERCH20998,Jambo Pay,Groceries,South Africa,2025-10-22
+MERCH20999,Zawadi Games,Gift Cards,Kenya,2024-10-15
+MERCH21000,Baobab Cards,Betting,Kenya,2024-12-14
+MERCH21001,Nova Travel,Utilities,Ghana,2022-09-09
+MERCH21002,Sunrise Foods,Gift Cards,South Africa,2024-07-17
+MERCH21003,Urban Mart,Betting,Nigeria,2023-04-06
+MERCH21004,Metro Cards,Groceries,Kenya,2023-04-01
+MERCH21005,Urban Mobile,Groceries,South Africa,2022-12-16
+MERCH21006,Kazi Exchange,Retail,Kenya,2024-07-03
+MERCH21007,Imara Cards,Airtime & Data,Ghana,2025-05-21
+MERCH21008,Bright Mart,Retail,Uganda,2022-10-08
+MERCH21009,Quick Mobile,Retail,Ghana,2025-07-17
+MERCH21010,Tula Express,Electronics,Kenya,2026-04-12
+MERCH21011,Imara Pay,Transport,Ghana,2026-04-22
+MERCH21012,Mega Mobile,Retail,Kenya,2025-02-12
+MERCH21013,Pesa Wallet,Retail,Egypt,2025-07-04
+MERCH21014,Urban Pay,Betting,Ghana,2022-08-17
+MERCH21015,Urban Travel,Airtime & Data,Nigeria,2025-07-17
+MERCH21016,Sahara Shop,Utilities,Ghana,2024-11-19
+MERCH21017,Urban Hub,Airtime & Data,Kenya,2024-03-03
+MERCH21018,Jambo Store,Electronics,Nigeria,2025-10-25
+MERCH21019,Urban Plus,Airtime & Data,Nigeria,2023-01-12
+MERCH21020,Afri Hub,Healthcare,South Africa,2025-03-27
+MERCH21021,Prime Plus,Restaurants,South Africa,2024-02-09
+MERCH21022,Quick Wallet,Restaurants,Kenya,2025-09-12
+MERCH21023,Sahara Mart,Electronics,Tanzania,2022-11-02
+MERCH21024,Kazi Tech,Utilities,Nigeria,2023-01-16
+MERCH21025,Quick Shop,Transport,Tanzania,2025-10-19
+MERCH21026,Baobab Foods,Transport,Nigeria,2024-11-12
+MERCH21027,Prime Exchange,Travel,Ghana,2024-03-12
+MERCH21028,Jambo Games,Gaming,Ghana,2025-04-18
+MERCH21029,Nova Express,Groceries,South Africa,2025-08-03
+MERCH21030,Zawadi Plus,Airtime & Data,Nigeria,2024-05-24
+MERCH21031,Nova Exchange,Groceries,South Africa,2026-03-23
+MERCH21032,Zawadi Mobile,Crypto Exchange,Nigeria,2025-12-17
+MERCH21033,Imara Mart,Transport,South Africa,2023-10-30
+MERCH21034,Urban Travel,Betting,Ghana,2024-04-26
+MERCH21035,Bright Store,Gift Cards,Egypt,2023-03-31
+MERCH21036,Swift Store,Gaming,Tanzania,2023-03-31
+MERCH21037,Bright Pay,Airtime & Data,Nigeria,2023-05-25
+MERCH21038,Imara Wallet,Retail,Kenya,2022-07-05
+MERCH21039,Jambo Foods,Utilities,Kenya,2025-05-21
+MERCH21040,Swift Plus,Restaurants,Nigeria,2022-11-24
+MERCH21041,Nova Mart,Restaurants,South Africa,2023-05-20
+MERCH21042,Bright Games,Gaming,South Africa,2024-02-08
+MERCH21043,Jambo Foods,Education,South Africa,2023-10-03
+MERCH21044,Swift Wallet,Electronics,Kenya,2025-08-08
+MERCH21045,Nova Foods,Electronics,Ghana,2024-11-08
+MERCH21046,Afri Store,Retail,Egypt,2022-10-01
+MERCH21047,Kazi Shop,Airtime & Data,Egypt,2024-03-13
+MERCH21048,Mega Mobile,Money Transfer,South Africa,2025-05-24
+MERCH21049,Sunrise Hub,Airtime & Data,Kenya,2023-04-08
+MERCH21050,Jambo Cards,Retail,Nigeria,2022-11-30
+MERCH21051,Apex Exchange,Utilities,Kenya,2024-05-06
+MERCH21052,Nova Games,Transport,South Africa,2024-04-24
+MERCH21053,Imara Cards,Retail,Nigeria,2024-03-11
+MERCH21054,Pesa Express,Gaming,Kenya,2024-12-09
+MERCH21055,Kazi Travel,Airtime & Data,Nigeria,2025-01-12
+MERCH21056,Sahara Cards,Airtime & Data,Kenya,2023-10-23
+MERCH21057,Nova Bet,Groceries,Tanzania,2024-01-12
+MERCH21058,Nova Wallet,Retail,Kenya,2025-10-17
+MERCH21059,Baobab Shop,Electronics,Nigeria,2025-08-24
+MERCH21060,Pesa Wallet,Healthcare,South Africa,2023-02-04
+MERCH21061,Jambo Cards,Groceries,Egypt,2023-05-12
+MERCH21062,Pesa Mobile,Airtime & Data,Uganda,2024-09-28
+MERCH21063,Baobab Wallet,Airtime & Data,Nigeria,2024-06-08
+MERCH21064,Kazi Exchange,Transport,Kenya,2024-11-23
+MERCH21065,Zawadi Plus,Electronics,Egypt,2025-08-14
+MERCH21066,Sunrise Shop,Crypto Exchange,Ghana,2023-11-08
+MERCH21067,Quick Wallet,Airtime & Data,Nigeria,2023-06-28
+MERCH21068,Quick Shop,Utilities,South Africa,2022-06-04
+MERCH21069,Mega Shop,Restaurants,Rwanda,2023-05-13
+MERCH21070,Kazi Express,Healthcare,Nigeria,2026-04-08
+MERCH21071,Afri Cards,Education,South Africa,2024-09-15
+MERCH21072,Baobab Foods,Travel,South Africa,2025-11-30
+MERCH21073,Imara Plus,Airtime & Data,South Africa,2024-07-27
+MERCH21074,Kazi Tech,Money Transfer,Ghana,2026-02-25
+MERCH21075,Apex Exchange,Healthcare,Rwanda,2026-03-22
+MERCH21076,Metro Express,Groceries,Nigeria,2023-09-23
+MERCH21077,Nova Store,Gift Cards,Tanzania,2025-08-19
+MERCH21078,Baobab Wallet,Airtime & Data,South Africa,2022-12-02
+MERCH21079,Zawadi Shop,Groceries,Uganda,2023-08-24
+MERCH21080,Imara Tech,Restaurants,Egypt,2024-02-16
+MERCH21081,Quick Express,Retail,South Africa,2022-12-26
+MERCH21082,Mega Bet,Restaurants,Kenya,2022-08-22
+MERCH21083,Apex Games,Electronics,South Africa,2023-06-03
+MERCH21084,Kazi Games,Groceries,Nigeria,2023-09-30
+MERCH21085,Prime Hub,Travel,Nigeria,2024-01-13
+MERCH21086,Metro Travel,Retail,Nigeria,2024-09-11
+MERCH21087,Bright Exchange,Groceries,Tanzania,2022-10-11
+MERCH21088,Afri Express,Gift Cards,Uganda,2025-01-20
+MERCH21089,Afri Plus,Gaming,Egypt,2023-06-26
+MERCH21090,Swift Games,Airtime & Data,Kenya,2025-09-05
+MERCH21091,Pesa Wallet,Retail,Nigeria,2025-08-15
+MERCH21092,Imara Wallet,Utilities,Kenya,2024-10-21
+MERCH21093,Kazi Foods,Retail,Tanzania,2024-09-21
+MERCH21094,Imara Express,Utilities,Kenya,2023-11-26
+MERCH21095,Sunrise Exchange,Airtime & Data,South Africa,2022-07-28
+MERCH21096,Metro Hub,Airtime & Data,Ghana,2024-10-13
+MERCH21097,Zawadi Exchange,Restaurants,Nigeria,2022-06-15
+MERCH21098,Jambo Games,Groceries,South Africa,2025-10-26
+MERCH21099,Cloud Exchange,Retail,Nigeria,2023-12-15
+MERCH21100,Sunrise Store,Utilities,Nigeria,2024-08-11
+MERCH21101,Mega Hub,Utilities,Kenya,2022-08-02
+MERCH21102,Sahara Bet,Airtime & Data,Ghana,2023-10-07
+MERCH21103,Metro Plus,Electronics,Tanzania,2023-08-24
+MERCH21104,Apex Hub,Airtime & Data,Nigeria,2024-08-29
+MERCH21105,Mega Pay,Electronics,South Africa,2023-05-03
+MERCH21106,Zawadi Tech,Gift Cards,Nigeria,2023-06-23
+MERCH21107,Pesa Bet,Betting,Nigeria,2024-05-06
+MERCH21108,Cloud Mart,Utilities,Ghana,2024-09-10
+MERCH21109,Baobab Bet,Betting,Nigeria,2024-08-20
+MERCH21110,Metro Foods,Money Transfer,South Africa,2023-09-25
+MERCH21111,Jambo Cards,Groceries,Uganda,2025-02-23
+MERCH21112,Urban Games,Gift Cards,Nigeria,2022-12-08
+MERCH21113,Swift Shop,Betting,South Africa,2024-02-10
+MERCH21114,Prime Travel,Electronics,Nigeria,2026-04-24
+MERCH21115,Tula Exchange,Transport,Ghana,2024-10-24
+MERCH21116,Prime Exchange,Crypto Exchange,South Africa,2023-01-04
+MERCH21117,Urban Tech,Utilities,Tanzania,2024-11-17
+MERCH21118,Kazi Store,Electronics,South Africa,2025-09-02
+MERCH21119,Swift Exchange,Gaming,Nigeria,2023-09-27
+MERCH21120,Mega Tech,Retail,Egypt,2023-03-11
+MERCH21121,Apex Mobile,Airtime & Data,Tanzania,2023-08-02
+MERCH21122,Imara Shop,Restaurants,Ghana,2025-06-06
+MERCH21123,Prime Travel,Gift Cards,South Africa,2025-01-30
+MERCH21124,Quick Store,Electronics,South Africa,2025-01-02
+MERCH21125,Quick Store,Retail,Ghana,2023-04-27
+MERCH21126,Cloud Cards,Groceries,South Africa,2022-08-25
+MERCH21127,Mega Bet,Education,South Africa,2022-08-31
+MERCH21128,Zawadi Store,Airtime & Data,Nigeria,2024-05-21
+MERCH21129,Urban Foods,Crypto Exchange,Kenya,2022-08-19
+MERCH21130,Cloud Express,Retail,Nigeria,2026-03-03
+MERCH21131,Urban Foods,Transport,Nigeria,2023-10-03
+MERCH21132,Afri Foods,Crypto Exchange,Tanzania,2024-08-02
+MERCH21133,Afri Wallet,Electronics,Uganda,2026-04-27
+MERCH21134,Afri Hub,Retail,South Africa,2024-05-22
+MERCH21135,Metro Exchange,Retail,Kenya,2024-05-23
+MERCH21136,Sunrise Hub,Gaming,Kenya,2022-09-24
+MERCH21137,Cloud Travel,Betting,Kenya,2023-09-03
+MERCH21138,Jambo Foods,Retail,Nigeria,2022-09-21
+MERCH21139,Kazi Cards,Airtime & Data,South Africa,2025-02-01
+MERCH21140,Cloud Foods,Electronics,Uganda,2024-04-29
+MERCH21141,Baobab Foods,Utilities,Nigeria,2022-12-25
+MERCH21142,Imara Games,Restaurants,Kenya,2026-05-15
+MERCH21143,Mega Mart,Groceries,Nigeria,2025-11-20
+MERCH21144,Cloud Games,Money Transfer,Ghana,2022-08-03
+MERCH21145,Imara Mart,Groceries,Kenya,2026-05-23
+MERCH21146,Imara Foods,Retail,Egypt,2025-01-05
+MERCH21147,Metro Hub,Crypto Exchange,South Africa,2024-11-27
+MERCH21148,Bright Mart,Airtime & Data,Egypt,2025-12-08
+MERCH21149,Pesa Plus,Travel,Uganda,2022-11-24
+MERCH21150,Metro Mobile,Groceries,South Africa,2026-01-27
+MERCH21151,Urban Travel,Groceries,Egypt,2026-02-10
+MERCH21152,Cloud Travel,Utilities,South Africa,2025-04-29
+MERCH21153,Apex Games,Travel,Nigeria,2022-11-10
+MERCH21154,Zawadi Mart,Transport,Kenya,2024-08-10
+MERCH21155,Jambo Plus,Travel,Rwanda,2022-12-12
+MERCH21156,Jambo Mobile,Airtime & Data,Nigeria,2023-08-04
+MERCH21157,Mega Tech,Utilities,Ghana,2025-04-13
+MERCH21158,Pesa Shop,Retail,Kenya,2023-12-20
+MERCH21159,Sahara Plus,Groceries,Kenya,2025-04-23
+MERCH21160,Jambo Cards,Retail,Nigeria,2024-04-27
+MERCH21161,Cloud Plus,Gift Cards,South Africa,2023-04-27
+MERCH21162,Tula Store,Healthcare,Tanzania,2024-01-16
+MERCH21163,Sahara Plus,Retail,Nigeria,2025-02-24
+MERCH21164,Zawadi Hub,Utilities,Nigeria,2025-09-03
+MERCH21165,Imara Tech,Restaurants,Tanzania,2026-02-13
+MERCH21166,Zawadi Tech,Retail,South Africa,2026-02-11
+MERCH21167,Pesa Hub,Retail,Nigeria,2025-10-01
+MERCH21168,Urban Foods,Retail,Uganda,2023-12-02
+MERCH21169,Kazi Foods,Gift Cards,Kenya,2023-06-24
+MERCH21170,Swift Shop,Utilities,South Africa,2024-04-26
+MERCH21171,Cloud Hub,Restaurants,Rwanda,2023-10-17
+MERCH21172,Apex Games,Utilities,Kenya,2025-03-25
+MERCH21173,Apex Foods,Restaurants,Ghana,2026-04-25
+MERCH21174,Pesa Mobile,Groceries,Nigeria,2026-04-03
+MERCH21175,Pesa Hub,Airtime & Data,Nigeria,2024-04-09
+MERCH21176,Pesa Pay,Restaurants,Nigeria,2024-04-08
+MERCH21177,Swift Tech,Electronics,Uganda,2025-11-05
+MERCH21178,Jambo Exchange,Gaming,Kenya,2025-01-26
+MERCH21179,Tula Store,Retail,Kenya,2022-07-17
+MERCH21180,Prime Wallet,Electronics,Kenya,2023-04-21
+MERCH21181,Kazi Shop,Restaurants,Kenya,2022-07-19
+MERCH21182,Imara Pay,Airtime & Data,South Africa,2022-08-25
+MERCH21183,Imara Hub,Utilities,Nigeria,2023-01-30
+MERCH21184,Kazi Mart,Restaurants,Uganda,2024-03-26
+MERCH21185,Kazi Cards,Electronics,Egypt,2023-07-04
+MERCH21186,Urban Hub,Transport,South Africa,2024-10-14
+MERCH21187,Pesa Express,Utilities,Nigeria,2025-12-13
+MERCH21188,Kazi Express,Electronics,Rwanda,2022-10-13
+MERCH21189,Apex Hub,Groceries,Kenya,2022-12-28
+MERCH21190,Cloud Wallet,Utilities,Uganda,2024-09-22
+MERCH21191,Cloud Mobile,Utilities,Nigeria,2025-09-11
+MERCH21192,Baobab Mobile,Education,South Africa,2024-12-29
+MERCH21193,Mega Wallet,Airtime & Data,South Africa,2025-03-07
+MERCH21194,Quick Foods,Gaming,Ghana,2026-02-15
+MERCH21195,Nova Travel,Groceries,Nigeria,2024-04-16
+MERCH21196,Urban Bet,Betting,Nigeria,2023-07-26
+MERCH21197,Metro Exchange,Groceries,Nigeria,2024-07-06
+MERCH21198,Sahara Plus,Gaming,Uganda,2025-09-16
+MERCH21199,Prime Store,Groceries,Nigeria,2024-09-25
+MERCH21200,Bright Express,Groceries,South Africa,2026-04-09
+MERCH21201,Baobab Plus,Airtime & Data,Kenya,2023-08-20
+MERCH21202,Sahara Tech,Airtime & Data,Kenya,2025-01-20
+MERCH21203,Zawadi Shop,Electronics,Kenya,2025-08-07
+MERCH21204,Apex Mart,Gaming,Uganda,2024-05-21
+MERCH21205,Sunrise Plus,Restaurants,South Africa,2023-02-01
+MERCH21206,Cloud Plus,Airtime & Data,Egypt,2026-01-29
+MERCH21207,Zawadi Store,Airtime & Data,South Africa,2023-01-31
+MERCH21208,Sunrise Tech,Gaming,Kenya,2024-07-18
+MERCH21209,Pesa Travel,Groceries,Ghana,2024-11-19
+MERCH21210,Quick Shop,Restaurants,Tanzania,2023-03-30
+MERCH21211,Nova Pay,Utilities,South Africa,2023-09-12
+MERCH21212,Tula Bet,Airtime & Data,South Africa,2024-11-26
+MERCH21213,Pesa Games,Airtime & Data,South Africa,2022-06-22
+MERCH21214,Prime Travel,Electronics,Nigeria,2025-06-15
+MERCH21215,Cloud Mobile,Airtime & Data,Nigeria,2024-12-25
+MERCH21216,Urban Mobile,Gaming,Kenya,2025-05-28
+MERCH21217,Bright Hub,Education,South Africa,2025-08-19
+MERCH21218,Baobab Wallet,Airtime & Data,Nigeria,2025-08-03
+MERCH21219,Cloud Pay,Groceries,Nigeria,2025-01-26
+MERCH21220,Sunrise Games,Utilities,Kenya,2024-03-08
+MERCH21221,Prime Store,Retail,Tanzania,2024-04-23
+MERCH21222,Prime Mart,Travel,Kenya,2025-04-06
+MERCH21223,Zawadi Shop,Restaurants,Nigeria,2025-03-05
+MERCH21224,Swift Store,Restaurants,Nigeria,2022-10-09
+MERCH21225,Swift Foods,Gaming,Kenya,2024-03-04
+MERCH21226,Jambo Foods,Restaurants,Tanzania,2025-05-26
+MERCH21227,Bright Express,Utilities,Nigeria,2024-12-26
+MERCH21228,Jambo Bet,Utilities,Nigeria,2022-08-17
+MERCH21229,Apex Pay,Money Transfer,Egypt,2024-01-31
+MERCH21230,Nova Games,Retail,Nigeria,2025-09-18
+MERCH21231,Imara Store,Electronics,South Africa,2025-05-03
+MERCH21232,Sunrise Exchange,Transport,Egypt,2022-11-11
+MERCH21233,Urban Games,Utilities,Nigeria,2026-03-26
+MERCH21234,Sahara Games,Utilities,Nigeria,2023-03-19
+MERCH21235,Baobab Plus,Groceries,Nigeria,2025-05-25
+MERCH21236,Sahara Mobile,Groceries,Kenya,2025-10-26
+MERCH21237,Nova Plus,Transport,South Africa,2024-10-19
+MERCH21238,Pesa Plus,Electronics,Nigeria,2022-10-17
+MERCH21239,Bright Mobile,Education,Kenya,2022-12-31
+MERCH21240,Kazi Mobile,Gaming,Uganda,2023-03-12
+MERCH21241,Prime Mart,Gaming,Nigeria,2022-10-11
+MERCH21242,Imara Plus,Betting,Kenya,2022-07-07
+MERCH21243,Nova Shop,Electronics,Nigeria,2022-06-26
+MERCH21244,Tula Store,Retail,South Africa,2024-04-21
+MERCH21245,Quick Store,Airtime & Data,Nigeria,2024-05-21
+MERCH21246,Zawadi Plus,Groceries,Kenya,2023-10-30
+MERCH21247,Zawadi Store,Betting,Rwanda,2023-07-03
+MERCH21248,Metro Plus,Airtime & Data,South Africa,2023-01-13
+MERCH21249,Cloud Hub,Utilities,Ghana,2023-02-04
+MERCH21250,Metro Games,Groceries,Egypt,2024-03-30
+MERCH21251,Pesa Hub,Utilities,Nigeria,2023-06-14
+MERCH21252,Jambo Tech,Money Transfer,South Africa,2024-07-20
+MERCH21253,Cloud Foods,Betting,Kenya,2026-04-10
+MERCH21254,Nova Cards,Airtime & Data,Nigeria,2026-04-27
+MERCH21255,Zawadi Foods,Money Transfer,Kenya,2023-04-21
+MERCH21256,Sahara Hub,Transport,Kenya,2024-04-07
+MERCH21257,Nova Exchange,Airtime & Data,Tanzania,2024-07-11
+MERCH21258,Quick Store,Airtime & Data,Nigeria,2023-07-23
+MERCH21259,Quick Exchange,Restaurants,Kenya,2026-05-03
+MERCH21260,Nova Hub,Groceries,Rwanda,2023-04-01
+MERCH21261,Imara Plus,Healthcare,Nigeria,2022-12-16
+MERCH21262,Sahara Cards,Groceries,Kenya,2022-12-15
+MERCH21263,Quick Foods,Gaming,Nigeria,2023-05-20
+MERCH21264,Imara Bet,Electronics,Kenya,2022-06-13
+MERCH21265,Imara Cards,Airtime & Data,Nigeria,2024-10-10
+MERCH21266,Cloud Mobile,Retail,Nigeria,2026-02-28
+MERCH21267,Zawadi Mobile,Restaurants,Uganda,2025-04-26
+MERCH21268,Mega Pay,Betting,South Africa,2025-06-10
+MERCH21269,Sunrise Cards,Retail,South Africa,2025-10-28
+MERCH21270,Jambo Store,Betting,Uganda,2024-09-05
+MERCH21271,Quick Express,Electronics,Kenya,2025-01-21
+MERCH21272,Nova Shop,Electronics,Ghana,2025-07-21
+MERCH21273,Jambo Cards,Education,South Africa,2022-07-12
+MERCH21274,Bright Games,Healthcare,Ghana,2023-07-31
+MERCH21275,Zawadi Tech,Restaurants,Kenya,2023-04-13
+MERCH21276,Kazi Games,Groceries,Nigeria,2024-10-03
+MERCH21277,Apex Plus,Retail,Kenya,2024-08-09
+MERCH21278,Nova Games,Electronics,Nigeria,2023-02-14
+MERCH21279,Swift Tech,Groceries,Ghana,2022-11-29
+MERCH21280,Afri Exchange,Retail,Tanzania,2025-10-13
+MERCH21281,Bright Mart,Airtime & Data,South Africa,2022-12-15
+MERCH21282,Prime Shop,Restaurants,Uganda,2025-09-02
+MERCH21283,Prime Travel,Utilities,Rwanda,2025-08-30
+MERCH21284,Imara Hub,Education,Nigeria,2025-09-18
+MERCH21285,Imara Hub,Healthcare,South Africa,2025-06-04
+MERCH21286,Mega Plus,Restaurants,Egypt,2025-08-13
+MERCH21287,Afri Tech,Airtime & Data,Kenya,2023-03-22
+MERCH21288,Zawadi Foods,Airtime & Data,Ghana,2023-10-25
+MERCH21289,Sunrise Exchange,Utilities,Egypt,2024-05-21
+MERCH21290,Pesa Foods,Gift Cards,Ghana,2025-12-13
+MERCH21291,Pesa Mart,Utilities,Nigeria,2026-04-30
+MERCH21292,Jambo Games,Restaurants,Ghana,2023-11-26
+MERCH21293,Swift Plus,Retail,Kenya,2024-10-11
+MERCH21294,Swift Shop,Healthcare,Kenya,2026-03-17
+MERCH21295,Nova Bet,Electronics,Kenya,2025-04-22
+MERCH21296,Prime Pay,Restaurants,Nigeria,2024-05-18
+MERCH21297,Metro Exchange,Retail,Ghana,2025-01-11
+MERCH21298,Urban Foods,Gaming,Uganda,2026-01-18
+MERCH21299,Imara Cards,Groceries,Uganda,2024-02-03
+MERCH21300,Imara Plus,Restaurants,Nigeria,2025-01-28
+MERCH21301,Metro Mobile,Utilities,Rwanda,2025-09-06
+MERCH21302,Swift Travel,Groceries,Kenya,2024-04-10
+MERCH21303,Afri Exchange,Utilities,Nigeria,2022-09-24
+MERCH21304,Kazi Hub,Utilities,Ghana,2022-10-06
+MERCH21305,Sahara Tech,Transport,Nigeria,2024-11-02
+MERCH21306,Mega Shop,Electronics,Ghana,2022-07-24
+MERCH21307,Baobab Shop,Betting,Kenya,2024-01-23
+MERCH21308,Prime Shop,Betting,South Africa,2022-07-07
+MERCH21309,Pesa Mobile,Gaming,Nigeria,2025-11-30
+MERCH21310,Urban Exchange,Retail,Nigeria,2025-09-06
+MERCH21311,Baobab Hub,Restaurants,Uganda,2024-11-21
+MERCH21312,Sahara Shop,Restaurants,Tanzania,2025-12-15
+MERCH21313,Swift Mobile,Gift Cards,Nigeria,2023-07-03
+MERCH21314,Swift Mobile,Transport,Nigeria,2026-02-19
+MERCH21315,Mega Mobile,Electronics,Egypt,2025-06-19
+MERCH21316,Bright Mart,Groceries,South Africa,2025-12-26
+MERCH21317,Sahara Games,Gift Cards,Kenya,2023-12-30
+MERCH21318,Tula Exchange,Retail,Nigeria,2023-05-26
+MERCH21319,Zawadi Pay,Transport,Ghana,2025-07-09
+MERCH21320,Cloud Mobile,Travel,Ghana,2024-04-19
+MERCH21321,Bright Express,Groceries,Kenya,2022-11-14
+MERCH21322,Quick Games,Groceries,South Africa,2026-05-15
+MERCH21323,Nova Bet,Betting,South Africa,2023-11-17
+MERCH21324,Baobab Foods,Utilities,Egypt,2023-03-14
+MERCH21325,Jambo Mobile,Groceries,South Africa,2024-09-08
+MERCH21326,Pesa Pay,Betting,Kenya,2024-04-15
+MERCH21327,Tula Plus,Restaurants,Nigeria,2022-12-01
+MERCH21328,Kazi Plus,Money Transfer,Ghana,2024-02-06
+MERCH21329,Swift Shop,Betting,Nigeria,2024-06-06
+MERCH21330,Sahara Tech,Utilities,South Africa,2023-11-03
+MERCH21331,Urban Foods,Groceries,Kenya,2025-12-09
+MERCH21332,Sahara Games,Groceries,Nigeria,2024-12-01
+MERCH21333,Bright Travel,Airtime & Data,Kenya,2022-09-03
+MERCH21334,Swift Shop,Utilities,South Africa,2024-08-02
+MERCH21335,Afri Bet,Gaming,Kenya,2024-02-29
+MERCH21336,Kazi Plus,Betting,Nigeria,2026-01-20
+MERCH21337,Baobab Foods,Restaurants,Tanzania,2025-08-03
+MERCH21338,Pesa Shop,Airtime & Data,South Africa,2023-10-04
+MERCH21339,Pesa Shop,Restaurants,Nigeria,2022-11-22
+MERCH21340,Prime Plus,Money Transfer,Ghana,2025-01-25
+MERCH21341,Mega Foods,Groceries,Kenya,2022-08-15
+MERCH21342,Bright Foods,Utilities,Egypt,2023-04-21
+MERCH21343,Jambo Pay,Airtime & Data,Nigeria,2024-05-07
+MERCH21344,Zawadi Exchange,Transport,Nigeria,2026-01-31
+MERCH21345,Metro Wallet,Education,Nigeria,2026-03-12
+MERCH21346,Baobab Tech,Crypto Exchange,Kenya,2022-09-21
+MERCH21347,Cloud Bet,Groceries,Egypt,2025-01-16
+MERCH21348,Afri Foods,Airtime & Data,Kenya,2023-12-25
+MERCH21349,Jambo Tech,Airtime & Data,Ghana,2025-11-07
+MERCH21350,Afri Hub,Groceries,South Africa,2025-12-16
+MERCH21351,Baobab Wallet,Travel,Kenya,2026-03-02
+MERCH21352,Prime Pay,Restaurants,Ghana,2025-04-21
+MERCH21353,Mega Hub,Transport,Nigeria,2024-06-18
+MERCH21354,Mega Travel,Restaurants,South Africa,2022-10-22
+MERCH21355,Urban Cards,Airtime & Data,Tanzania,2022-09-15
+MERCH21356,Zawadi Store,Groceries,Kenya,2024-04-14
+MERCH21357,Nova Tech,Gaming,Nigeria,2022-10-29
+MERCH21358,Prime Cards,Groceries,South Africa,2024-07-17
+MERCH21359,Jambo Store,Transport,Uganda,2025-04-11
+MERCH21360,Nova Mart,Gift Cards,Uganda,2024-08-25
+MERCH21361,Pesa Mart,Airtime & Data,Rwanda,2025-01-21
+MERCH21362,Quick Wallet,Retail,Tanzania,2025-04-25
+MERCH21363,Prime Cards,Electronics,Kenya,2023-05-02
+MERCH21364,Mega Games,Airtime & Data,Egypt,2024-04-01
+MERCH21365,Kazi Wallet,Utilities,Kenya,2025-06-11
+MERCH21366,Jambo Pay,Groceries,Ghana,2024-09-04
+MERCH21367,Afri Mart,Groceries,South Africa,2023-05-19
+MERCH21368,Zawadi Games,Airtime & Data,South Africa,2023-11-15
+MERCH21369,Zawadi Plus,Education,Kenya,2024-08-28
+MERCH21370,Pesa Pay,Groceries,Egypt,2022-11-18
+MERCH21371,Cloud Mobile,Electronics,Kenya,2023-11-25
+MERCH21372,Cloud Store,Restaurants,Uganda,2024-04-10
+MERCH21373,Cloud Shop,Retail,Ghana,2025-03-23
+MERCH21374,Pesa Tech,Airtime & Data,Nigeria,2024-05-10
+MERCH21375,Swift Exchange,Healthcare,Kenya,2025-02-22
+MERCH21376,Sahara Mart,Electronics,Uganda,2025-10-29
+MERCH21377,Baobab Bet,Groceries,South Africa,2025-09-16
+MERCH21378,Urban Pay,Gaming,Ghana,2023-06-21
+MERCH21379,Afri Wallet,Transport,South Africa,2023-07-17
+MERCH21380,Afri Travel,Healthcare,Tanzania,2026-05-15
+MERCH21381,Mega Exchange,Retail,Ghana,2024-01-08
+MERCH21382,Bright Mobile,Groceries,Rwanda,2022-12-08
+MERCH21383,Baobab Mart,Restaurants,Nigeria,2023-04-28
+MERCH21384,Tula Bet,Utilities,Egypt,2023-03-29
+MERCH21385,Prime Hub,Retail,South Africa,2024-07-09
+MERCH21386,Imara Games,Gaming,Rwanda,2025-03-15
+MERCH21387,Urban Pay,Retail,Tanzania,2022-08-05
+MERCH21388,Imara Exchange,Utilities,Rwanda,2025-03-15
+MERCH21389,Metro Cards,Retail,South Africa,2025-12-28
+MERCH21390,Sahara Bet,Airtime & Data,South Africa,2023-10-07
+MERCH21391,Cloud Mart,Betting,Nigeria,2023-10-10
+MERCH21392,Sahara Foods,Restaurants,Nigeria,2025-11-23
+MERCH21393,Apex Wallet,Travel,South Africa,2023-09-23
+MERCH21394,Zawadi Express,Retail,Kenya,2025-08-13
+MERCH21395,Zawadi Bet,Utilities,Nigeria,2024-01-24
+MERCH21396,Sahara Bet,Healthcare,Nigeria,2022-11-16
+MERCH21397,Sahara Tech,Groceries,Tanzania,2023-09-23
+MERCH21398,Kazi Wallet,Travel,Kenya,2026-04-24
+MERCH21399,Sunrise Hub,Gaming,Kenya,2025-01-19
+MERCH21400,Tula Exchange,Retail,Tanzania,2025-04-09
+MERCH21401,Jambo Games,Utilities,Ghana,2026-02-27
+MERCH21402,Mega Pay,Utilities,Nigeria,2024-02-17
+MERCH21403,Tula Exchange,Electronics,Kenya,2024-06-15
+MERCH21404,Sahara Foods,Utilities,South Africa,2025-05-22
+MERCH21405,Imara Tech,Retail,South Africa,2025-08-26
+MERCH21406,Swift Store,Money Transfer,Kenya,2024-01-15
+MERCH21407,Baobab Games,Electronics,South Africa,2023-09-22
+MERCH21408,Prime Express,Groceries,Uganda,2023-10-14
+MERCH21409,Swift Express,Education,Ghana,2024-01-30
+MERCH21410,Apex Bet,Groceries,Nigeria,2022-08-26
+MERCH21411,Sahara Plus,Airtime & Data,Egypt,2026-01-06
+MERCH21412,Metro Plus,Airtime & Data,Kenya,2024-03-22
+MERCH21413,Tula Express,Retail,Kenya,2022-08-17
+MERCH21414,Sunrise Travel,Healthcare,Egypt,2026-05-13
+MERCH21415,Apex Tech,Crypto Exchange,Tanzania,2024-06-09
+MERCH21416,Sahara Express,Utilities,Nigeria,2026-02-14
+MERCH21417,Afri Mobile,Healthcare,Ghana,2025-09-26
+MERCH21418,Mega Store,Utilities,South Africa,2025-09-30
+MERCH21419,Apex Games,Airtime & Data,South Africa,2024-11-04
+MERCH21420,Mega Express,Travel,Kenya,2024-12-18
+MERCH21421,Kazi Travel,Groceries,Kenya,2022-10-28
+MERCH21422,Prime Foods,Groceries,South Africa,2022-09-25
+MERCH21423,Sunrise Mobile,Airtime & Data,Uganda,2022-08-28
+MERCH21424,Sunrise Shop,Restaurants,Uganda,2024-09-23
+MERCH21425,Sahara Store,Restaurants,Egypt,2025-12-09
+MERCH21426,Mega Pay,Transport,Uganda,2024-01-22
+MERCH21427,Prime Cards,Electronics,Nigeria,2024-01-15
+MERCH21428,Quick Exchange,Healthcare,Kenya,2024-12-19
+MERCH21429,Swift Wallet,Electronics,Kenya,2024-04-07
+MERCH21430,Metro Mart,Retail,South Africa,2025-08-19
+MERCH21431,Zawadi Shop,Restaurants,Ghana,2023-02-18
+MERCH21432,Quick Store,Groceries,Rwanda,2025-08-16
+MERCH21433,Nova Store,Crypto Exchange,Kenya,2024-04-17
+MERCH21434,Urban Hub,Healthcare,Kenya,2023-01-07
+MERCH21435,Tula Mart,Utilities,Kenya,2024-01-29
+MERCH21436,Quick Express,Education,Nigeria,2025-05-07
+MERCH21437,Kazi Travel,Retail,Nigeria,2025-07-15
+MERCH21438,Pesa Wallet,Restaurants,Nigeria,2025-08-09
+MERCH21439,Bright Store,Transport,Kenya,2022-10-16
+MERCH21440,Quick Plus,Utilities,South Africa,2023-03-23
+MERCH21441,Sahara Pay,Gift Cards,Nigeria,2024-12-18
+MERCH21442,Sahara Store,Restaurants,Kenya,2025-12-03
+MERCH21443,Sunrise Cards,Transport,Nigeria,2026-04-19
+MERCH21444,Kazi Store,Groceries,Uganda,2023-01-09
+MERCH21445,Zawadi Plus,Gaming,Uganda,2023-07-29
+MERCH21446,Tula Wallet,Education,Kenya,2025-09-27
+MERCH21447,Afri Mart,Groceries,Kenya,2025-04-23
+MERCH21448,Swift Wallet,Restaurants,South Africa,2023-10-13
+MERCH21449,Pesa Exchange,Airtime & Data,Tanzania,2022-10-18
+MERCH21450,Nova Foods,Retail,Ghana,2022-09-06
+MERCH21451,Mega Cards,Restaurants,South Africa,2024-05-06
+MERCH21452,Cloud Travel,Electronics,South Africa,2022-11-05
+MERCH21453,Urban Express,Transport,South Africa,2023-11-11
+MERCH21454,Prime Wallet,Restaurants,Uganda,2023-05-24
+MERCH21455,Pesa Tech,Utilities,South Africa,2025-04-17
+MERCH21456,Pesa Shop,Betting,Kenya,2025-02-20
+MERCH21457,Mega Bet,Airtime & Data,Uganda,2026-03-28
+MERCH21458,Urban Pay,Groceries,Nigeria,2023-09-04
+MERCH21459,Mega Tech,Airtime & Data,Kenya,2025-06-20
+MERCH21460,Jambo Mart,Utilities,South Africa,2022-08-05
+MERCH21461,Quick Exchange,Airtime & Data,Tanzania,2023-03-06
+MERCH21462,Prime Mart,Travel,South Africa,2025-05-07
+MERCH21463,Apex Store,Restaurants,Kenya,2025-09-07
+MERCH21464,Sunrise Express,Restaurants,Ghana,2024-12-22
+MERCH21465,Swift Express,Travel,Egypt,2022-07-16
+MERCH21466,Bright Foods,Retail,Nigeria,2022-07-20
+MERCH21467,Tula Express,Electronics,Nigeria,2025-02-22
+MERCH21468,Prime Games,Retail,Uganda,2022-08-24
+MERCH21469,Jambo Games,Airtime & Data,Kenya,2022-08-09
+MERCH21470,Zawadi Games,Retail,Kenya,2025-08-26
+MERCH21471,Afri Mart,Gift Cards,South Africa,2025-10-09
+MERCH21472,Kazi Mobile,Groceries,Nigeria,2023-12-21
+MERCH21473,Baobab Exchange,Gaming,Uganda,2025-12-23
+MERCH21474,Afri Exchange,Transport,Egypt,2023-03-01
+MERCH21475,Cloud Exchange,Gift Cards,Ghana,2025-01-05
+MERCH21476,Sunrise Mobile,Utilities,Ghana,2024-10-18
+MERCH21477,Apex Shop,Restaurants,Egypt,2023-05-21
+MERCH21478,Baobab Express,Groceries,Egypt,2025-07-08
+MERCH21479,Pesa Plus,Groceries,South Africa,2023-03-20
+MERCH21480,Sahara Mobile,Restaurants,South Africa,2025-03-23
+MERCH21481,Cloud Tech,Groceries,Tanzania,2023-04-19
+MERCH21482,Mega Wallet,Transport,Kenya,2023-03-16
+MERCH21483,Baobab Hub,Transport,Kenya,2023-08-29
+MERCH21484,Sunrise Pay,Betting,Nigeria,2023-12-26
+MERCH21485,Bright Tech,Gaming,Nigeria,2024-06-03
+MERCH21486,Nova Exchange,Airtime & Data,Kenya,2023-06-17
+MERCH21487,Jambo Mart,Gaming,South Africa,2022-08-19
+MERCH21488,Tula Hub,Groceries,Nigeria,2023-04-17
+MERCH21489,Kazi Tech,Electronics,Nigeria,2025-07-08
+MERCH21490,Imara Exchange,Transport,Tanzania,2023-05-09
+MERCH21491,Apex Shop,Airtime & Data,Ghana,2024-05-30
+MERCH21492,Sahara Express,Travel,Nigeria,2024-07-07
+MERCH21493,Urban Hub,Airtime & Data,Egypt,2024-08-24
+MERCH21494,Sahara Shop,Retail,Ghana,2023-04-08
+MERCH21495,Sunrise Hub,Education,Nigeria,2025-01-02
+MERCH21496,Cloud Foods,Airtime & Data,South Africa,2023-08-13
+MERCH21497,Metro Tech,Groceries,Uganda,2023-01-21
+MERCH21498,Cloud Games,Education,South Africa,2022-06-04
+MERCH21499,Sahara Games,Utilities,Uganda,2024-10-28
