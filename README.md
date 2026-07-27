@@ -2,14 +2,13 @@
 
 Identifying where fraud is happening, who is most affected, what signals it before it completes, and what the business should do about it — using SQL Server, Power BI, and a synthetic 250,000-row transaction dataset designed to model real fintech fraud patterns.
 
-**Author:** Abijah Kabiro | Data Analyst | Nairobi, Kenya
+**Author:** Abijah Kabiro | Business Intelligence Analyst | Nairobi, Kenya
 **Tools:** SQL Server · SSMS · Power BI · DAX · Power Query · Python (dataset generation)
 **Dataset:** Synthetic, AI-assisted. 250,000 transactions across 8 African markets. Built with deliberate fraud patterns and realistic data quality issues.
 **Project Type:** Fraud Analytics · Data Quality · Business Intelligence · Operational Risk
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue?logo=microsoftsqlserver)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
-![Python](https://img.shields.io/badge/Python-Data_Generation-green?logo=python)
 ![DAX](https://img.shields.io/badge/DAX-Measures-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
@@ -417,6 +416,6 @@ For the full project story including business context, technical walkthrough, da
 
 ## About This Project
 
-Built by **Abijah Kabiro**, a data analyst based in Nairobi, Kenya with four years of experience in supply chain, logistics, and customer analytics. This project was built to demonstrate how SQL Server and Power BI can work together to move from dirty transactional data to actionable fraud intelligence — not just charts for visual effect.
+Built by **Abijah Kabiro**, a business intelligence analyst based in Nairobi, Kenya with four years of experience in supply chain, logistics, and customer analytics. This project was built to demonstrate how SQL Server and Power BI can work together to move from dirty transactional data to actionable fraud intelligence — not just charts for visual effect.
 
 **Connect:** [LinkedIn](https://linkedin.com/in/abijahkabiro) · [Portfolio](https://abijahkabiro.github.io) · [Medium](https://medium.com/@abijahkabiro) · [GitHub](https://github.com/Abijahkabiro)
