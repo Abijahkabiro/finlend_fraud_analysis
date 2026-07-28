@@ -1,8 +1,8 @@
 # FinLend Solutions Fraud Analysis
 
-Identifying where fraud is happening, who is most affected, what signals it before it completes, and what the business should do about it — using SQL Server, Power BI, and a synthetic 250,000-row transaction dataset designed to model real fintech fraud patterns.
+Identifying where fraud is happening, who is most affected, what signals it before it completes, and what the business should do about it using SQL Server, Power BI, and a synthetic 250,000-row transaction dataset designed to model real fintech fraud patterns.
 
-**Author:** Abijah Kabiro | Business Intelligence Analyst | Nairobi, Kenya
+**Author:** Abijah Kabiro | Data Analyst | Nairobi, Kenya
 **Tools:** SQL Server · SSMS · Power BI · DAX · Power Query · Python (dataset generation)
 **Dataset:** Synthetic, AI-assisted. 250,000 transactions across 8 African markets. Built with deliberate fraud patterns and realistic data quality issues.
 **Project Type:** Fraud Analytics · Data Quality · Business Intelligence · Operational Risk
@@ -22,7 +22,7 @@ Transaction volume has grown fast over the past year. So has fraud. Fraud-relate
 
 The goal of this project was not to build a fraud-blocking system. It was to build visibility. To make fraud patterns visible so the business can target controls where they matter most, rather than applying blanket rules that hurt the customer experience everywhere.
 
-Full honesty upfront: FinLend is fictional. The dataset is synthetic, built with AI, and fraud patterns were designed into it deliberately. Real fraud data sits behind privacy walls, so this is how I practise the actual analytical work without compromising anyone's data.
+Full honesty upfront: FinLend is fictional. The dataset is synthetic, built with AI, and fraud patterns were designed into it deliberately. Real fraud data sits behind privacy walls, so I built a dataset that mirrors the kinds of issues a real fintech fraud team would face.
 
 ---
 
@@ -73,7 +73,7 @@ Measured every data quality issue before touching a single value. Ran six named 
 | Duplicates | 5,000 rows in duplicate groups (2,500 pairs) |
 | Placeholder emails | 90 across 5 junk values |
 
-Profiling before cleaning is the step most people skip. It is the step that lets you say in an interview "my data had these specific issues and here is the proof."
+Profiling before cleaning matters. Without it, there is no evidence behind the cleaning decisions. The numbers above are that evidence.
 
 **Phase 3: Data Cleaning**
 
@@ -204,7 +204,6 @@ Additionally demonstrated a correlated subquery rewrite as a window function, re
 Four regional roles configured: East Africa, West Africa, Southern Africa, North Africa. Each role filters dim_geography by region, and because the relationship flows from dimension to fact, every visual on every page automatically filters to that region's data only.
 
 When viewing as East Africa, total value drops from $23.87M to $9.04M and the dashboard shows only Kenya, Tanzania, Uganda, and Rwanda transactions.
-![Row-level Security](PowerBI/rls_test2.png)
 
 ---
 
@@ -294,17 +293,17 @@ Real projects hit real problems. These were the issues encountered and how they 
 
 1. Always stage data as text before typing it. One bad value in a DATETIME2 or DECIMAL column crashes the entire BULK INSERT. Text columns accept everything. Clean in the next step.
 
-2. Profile before you clean. You cannot say "my data was dirty" in an interview unless you measured the dirt first. The profiling numbers are the evidence behind every cleaning decision.
+2. Profile before you clean. Without measuring the dirt first, there is no evidence behind the cleaning decisions. The profiling numbers are what make the cleaning defensible.
 
 3. In Power BI, BIT columns from SQL Server behave as TRUE/FALSE, not 1/0. Every DAX filter on a BIT column must use = TRUE instead of = 1. This caused three separate measure failures before the pattern was clear.
 
 4. The strongest geographic signal in fraud data is often not at the country level. Country rates were nearly flat (2.83% to 3.09%). The real story was cross-border corridors running at 10%+. Always check corridor pairs before claiming a regional pattern.
 
-5. Flag dirty records instead of deleting them. A customer with a placeholder email still made real transactions. Deleting the customer breaks every foreign key join downstream. The senior move is quieter: keep the record, mark the problem.
+5. Flag dirty records instead of deleting them. A customer with a placeholder email still made real transactions. Deleting the customer breaks every foreign key join downstream. I kept the record and marked the problem with an is_valid_email flag.
 
 6. Optimization is a before-and-after story, not just an after. Capture the baseline logical reads and execution time before adding indexes. Without the before number, the improvement has no proof.
 
-7. Synthetic data is valid for portfolio work as long as you say so plainly. Never imply production data. The analytical skills are the same. The honesty is what builds trust.
+7. Synthetic data works when you are transparent about it. I built this dataset deliberately and say so upfront. The analytical process is the same whether the data is real or designed.
 
 ---
 
@@ -403,8 +402,6 @@ finlend/
 ```
 
 ---
-
-
 
 ## Further Reading
 
