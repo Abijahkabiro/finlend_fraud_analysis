@@ -2,8 +2,8 @@
 
 Identifying where fraud is happening, who is most affected, what signals it before it completes, and what the business should do about it using SQL Server, Power BI, and a synthetic 250,000-row transaction dataset designed to model real fintech fraud patterns.
 
-**Author:** Abijah Kabiro | Data Analyst | Nairobi, Kenya
-**Tools:** SQL Server · SSMS · Power BI · DAX · Power Query · Python (dataset generation)
+**Author:** Abijah Kabiro | Business Intelligence Analyst | Nairobi, Kenya
+**Tools:** SQL Server · SSMS · Power BI · DAX · Power Query
 **Dataset:** Synthetic, AI-assisted. 250,000 transactions across 8 African markets. Built with deliberate fraud patterns and realistic data quality issues.
 **Project Type:** Fraud Analytics · Data Quality · Business Intelligence · Operational Risk
 
@@ -205,6 +205,8 @@ Four regional roles configured: East Africa, West Africa, Southern Africa, North
 
 When viewing as East Africa, total value drops from $23.87M to $9.04M and the dashboard shows only Kenya, Tanzania, Uganda, and Rwanda transactions.
 
+![Row-Level Security](PowerBI/rls_test2.png)
+
 ---
 
 ## Business Recommendations
@@ -277,7 +279,6 @@ Real projects hit real problems. These were the issues encountered and how they 
 
 | Error | Cause | Fix |
 |---|---|---|
-| BULK INSERT syntax error on FORMAT='CSV' | SQL Server version pre-2017 does not support FORMAT='CSV' | Removed FORMAT='CSV', used plain FIELDTERMINATOR and ROWTERMINATOR |
 | BULK INSERT file not found | CSV files not in the folder the path pointed to | Moved files to the correct folder matching the BULK INSERT path |
 | OneDrive access denied on BULK INSERT | SQL Server service account cannot read OneDrive cloud-only files | Right-clicked folder, chose "Always keep on this device" |
 | Power BI connection error on localhost | SQL Server instance name not included | Changed server field to .\SQLEXPRESS |
@@ -307,31 +308,20 @@ Real projects hit real problems. These were the issues encountered and how they 
 
 ---
 
-## Honesty Notes
-
-**The data is synthetic.** FinLend Solutions is fictional. The dataset was generated with AI and fraud patterns were designed in deliberately. This is stated upfront because transparency matters more than the illusion of real data.
-
-**No strong regional pattern exists.** All four regions sit between 2.83% and 3.09% fraud rate. The geographic story is cross-border corridors, not any single country or region being worse. Do not claim a regional pattern that the data does not support.
-
-**Transaction amounts are USD equivalent.** The local_currency column records the native currency for reference, but the amount column was generated as a single normalized distribution. In a production environment, a proper currency conversion step would precede any cross-market aggregation.
-
----
-
 ## How to Run the Project
 
 **SQL Server**
 1. Create a database called `FinLend` in SSMS
-2. Run `sql/01_create_and_load.sql` — update the four file paths to match your CSV locations
-3. Run `sql/02_data_cleaning.sql` — builds clean typed tables from staging
-4. Run `sql/03_analysis_queries.sql` — reproduces all findings
-5. Run `sql/04_optimization.sql` — adds indexes and compares query cost
+2. Place the four CSV files (dim_customers, dim_geography, dim_merchants, fact_transactions) in a folder SQL Server can access
+3. Open SQL/FinLend.sql in SSMS
+4. Update the four BULK INSERT file paths to match your CSV location
+5. Run the script section by section: staging, profiling, cleaning, analysis, optimization
 
 **Power BI Dashboard**
-1. Download `FinLend_Fraud_Analysis.pbix` from the Power BI folder
-2. Open in Power BI Desktop
-3. Update the data source connection to your local SQL Server (.\SQLEXPRESS and FinLend database)
-4. Navigate between pages using the tabs at the bottom
-5. Test RLS by going to Modeling > View as > select a region
+1. Open PowerBI/FinLend_fraud_analysis.pbix in Power BI Desktop
+2. Update the data source connection to your SQL Server instance name and the FinLend database
+3. Navigate between pages using the tabs at the bottom
+4. Test RLS by going to Modeling > View as > select a region
 
 ---
 
@@ -386,7 +376,7 @@ finlend/
 │   └── 28b_window_function_rewrite.png
 │
 └── PowerBI/
-    ├── FinLend.pbix
+    ├── FinLend_fraud_analysis.pbix
     ├── Executive_Overview.png
     ├── Fraud_Trends.png
     ├── Merchant_Risk.png
