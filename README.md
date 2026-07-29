@@ -1,4 +1,4 @@
-# FinLend Solutions Fraud Analytics
+# FinLend Solutions End-to-End Fraud Analytics
 
 Designed and delivered an end-to-end Business Intelligence solution that transformed 250,000 payment transactions into executive insights on fraud exposure, operational risk, and control opportunities. Built the solution using SQL Server, dimensional modelling, and Power BI to help business leaders understand where fraud occurs, which customer and merchant segments drive losses, and which risk indicators require immediate attention.
 
