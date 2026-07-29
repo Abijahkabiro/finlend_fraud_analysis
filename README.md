@@ -553,7 +553,7 @@ The final analytical model contained:
 - **0** duplicate records
 - **0** orphaned relationships
 
-# Business Intelligence Competencies Demonstrated
+# Business Intelligence Capabilities Demonstrated
 
 This project demonstrates practical experience across the end-to-end Business Intelligence lifecycle.
 
@@ -638,19 +638,15 @@ finlend/
 
 A detailed walkthrough of the project, including the business context, analytical approach, SQL implementation, Power BI development, and business recommendations, is available on Medium.
 
-**Read the full article:**
-
-**Fraud Was Increasing. Business Intelligence Revealed Where FinLend Was Most Exposed**
-
-https://medium.com/@abijahkabiro/fraud-was-increasing-business-intelligence-revealed-where-finlend-was-most-exposed-401373f9a1d1
+**Read the full article:** https://medium.com/@abijahkabiro/fraud-was-increasing-business-intelligence-revealed-where-finlend-was-most-exposed-401373f9a1d1
 
 ---
 
 # About the Author
 
-I'm **Abijah Kabiro**, a Business Intelligence Analyst focused on transforming operational data into actionable business insights through SQL Server, Python, dimensional modeling, and Power BI.
+I'm **Abijah Kabiro**, a Business Intelligence Analyst who designs end-to-end analytical solutions that transform operational data into trusted business insights. My work combines SQL Server, Python, dimensional modeling, and Power BI to support reporting, performance improvement, and evidence-based decision-making.
 
-My work focuses on the complete Business Intelligence lifecycle—from understanding business problems and preparing data to designing analytical models, developing executive dashboards, and delivering recommendations that improve business performance.
+I specialize in the complete Business Intelligence lifecycle—from understanding business problems and preparing data to designing analytical models, developing executive dashboards, and delivering recommendations that improve business performance.
 
 ## Connect
 
