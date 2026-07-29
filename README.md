@@ -646,7 +646,7 @@ A detailed walkthrough of the project, including the business context, analytica
 
 I'm **Abijah Kabiro**, a Business Intelligence Analyst who designs end-to-end analytical solutions that transform operational data into trusted business insights. My work combines SQL Server, Python, dimensional modeling, and Power BI to support reporting, performance improvement, and evidence-based decision-making.
 
-I specialize in the complete Business Intelligence lifecycle—from understanding business problems and preparing data to designing analytical models, developing executive dashboards, and delivering recommendations that improve business performance.
+I specialize in the complete Business Intelligence lifecycle from understanding business problems and preparing data to designing analytical models, developing executive dashboards, and delivering recommendations that improve business performance.
 
 ## Connect
 
