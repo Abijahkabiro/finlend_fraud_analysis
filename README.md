@@ -1,147 +1,356 @@
-# FinLend Solutions Fraud Analysis
+# FinLend Solutions Fraud Analytics
 
-Identifying where fraud is happening, who is most affected, what signals it before it completes, and what the business should do about it using SQL Server, Power BI, and a synthetic 250,000-row transaction dataset designed to model real fintech fraud patterns.
+Designed an end-to-end fraud analytics solution that transformed 250,000 payment transactions into executive insights on fraud exposure, operational risk, and control opportunities. The solution combines SQL Server, dimensional modeling, and Power BI to help business leaders understand where fraud occurs, which customer and merchant segments drive losses, and which risk indicators deserve immediate attention.
+
+Rather than building a fraud detection model, the objective was to provide decision-makers with the analytical visibility required to prioritize fraud mitigation efforts using evidence instead of assumptions.
 
 **Author:** Abijah Kabiro | Business Intelligence Analyst | Nairobi, Kenya
-**Tools:** SQL Server · SSMS · Power BI · DAX · Power Query
-**Dataset:** Synthetic, AI-assisted. 250,000 transactions across 8 African markets. Built with deliberate fraud patterns and realistic data quality issues.
-**Project Type:** Fraud Analytics · Data Quality · Business Intelligence · Operational Risk
+**Technology Stack:** SQL Server • SSMS • Power BI • DAX • Power Query
+**Dataset:** Synthetic, AI-assisted dataset containing 250,000 payment transactions across eight African markets. The data was intentionally designed to replicate realistic transaction behavior, common data quality issues, and fraud patterns typically encountered within digital payments.
+**Project Focus:** Business Intelligence • Fraud Analytics • Data Quality • Operational Risk • Executive Reporting
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue?logo=microsoftsqlserver)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
-![DAX](https://img.shields.io/badge/DAX-Measures-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
 ## Business Context
 
-FinLend Solutions is a fast-growing digital payments fintech operating across eight African markets: Kenya, Nigeria, Ghana, South Africa, Egypt, Tanzania, Uganda, and Rwanda. The platform moves money three ways. Peer-to-peer transfers between individuals. Merchant payments to businesses. Mobile wallet top-ups and withdrawals.
+FinLend Solutions is a fictional digital payments company operating across eight African markets: Kenya, Nigeria, Ghana, South Africa, Egypt, Tanzania, Uganda, and Rwanda. The platform supports peer-to-peer transfers, merchant payments, and mobile wallet transactions.
 
-Transaction volume has grown fast over the past year. So has fraud. Fraud-related losses climbed approximately 40% across the year. But the company cannot clearly see the cause. The losses are visible. The patterns behind them are not.
+As transaction volumes expanded, fraud-related losses increased by approximately 40% year over year. While leadership could measure the financial impact, they lacked visibility into where fraud was concentrated, which customer and merchant segments generated the greatest exposure, and which operational controls would produce the highest return.
 
-The goal of this project was not to build a fraud-blocking system. It was to build visibility. To make fraud patterns visible so the business can target controls where they matter most, rather than applying blanket rules that hurt the customer experience everywhere.
+Without this visibility, fraud prevention efforts risked becoming reactive, expensive, and overly restrictive for legitimate customers.
 
-Full honesty upfront: FinLend is fictional. The dataset is synthetic, built with AI, and fraud patterns were designed into it deliberately. Real fraud data sits behind privacy walls, so I built a dataset that mirrors the kinds of issues a real fintech fraud team would face.
+This project was designed to bridge that gap by transforming raw transaction data into actionable business intelligence. Instead of focusing on predictive fraud detection, the solution equips decision-makers with clear analytical insights that support risk prioritization, operational monitoring, and evidence-based fraud mitigation strategies.
+---
+
+## About the Dataset
+
+FinLend Solutions is fictional, and the dataset is synthetic.
+
+Access to production fraud data is typically restricted because of privacy, regulatory, and commercial considerations. To simulate a realistic business environment, the dataset was intentionally engineered using AI-assisted generation techniques to mirror common fintech transaction patterns, operational data quality issues, and fraud behaviors.
+
+The data includes intentionally introduced inconsistencies such as missing values, duplicate records, inconsistent country labels, placeholder information, and invalid transactions. These issues were preserved to replicate the challenges Business Intelligence teams encounter before meaningful analysis can begin.
+---
+
+## Business Objectives
+
+The analytical solution was designed to answer four strategic business questions that directly support fraud management and operational decision-making.
+
+### 1. Fraud Exposure
+
+Identify where fraud is occurring across the business.
+
+- Which payment methods exhibit the highest fraud rates?
+- Which merchant categories generate the greatest fraud exposure?
+- Which countries and cross-border payment corridors present elevated risk?
+- During which hours of the day does fraud concentrate?
+
+### 2. Customer and Merchant Risk
+
+Understand who contributes most to fraud losses.
+
+- Which merchants account for the highest fraud value?
+- Which customers generate disproportionate financial exposure?
+- How does customer tenure influence fraud risk?
+- Does Know Your Customer (KYC) verification reduce fraud?
+
+### 3. Operational Risk Indicators
+
+Identify behaviors that consistently precede fraudulent transactions.
+
+- Does an IP country mismatch increase fraud risk?
+- Are newly registered customers more susceptible to fraud?
+- Do transaction velocity spikes indicate coordinated fraud activity?
+
+### 4. Executive Performance Monitoring
+
+Measure the scale and direction of fraud over time.
+
+- What is the organization's overall fraud rate?
+- How much revenue is lost to fraudulent transactions?
+- Is fraud increasing over time?
+- Which business segments contribute the largest share of fraud losses?
 
 ---
 
-## Business Questions
+## Business Value
 
-The analysis was structured around four groups of questions, each tied to one of FinLend's blind spots:
+The completed analytical solution enables business stakeholders to:
 
-**Group 1: Where is fraud happening?**
-- Which payment methods carry the highest fraud rate?
-- Which merchant categories are most affected?
-- Which countries and cross-border corridors are most vulnerable?
-- What times of day cluster fraud?
-
-**Group 2: Who is most affected?**
-- Which merchants carry the most risk?
-- Which customers drive the most fraud value?
-- Does customer tenure change fraud risk?
-- Does KYC status change fraud risk?
-
-**Group 3: What signals fraud before it completes?**
-- Does a device or IP country mismatch raise fraud risk?
-- Do brand new accounts behave differently from established ones?
-- Are there velocity bursts that flag fraud rings?
-
-**Group 4: How big is the problem and is it growing?**
-- What is the overall fraud rate and total loss value?
-- Is fraud rising across the year?
-- What share of fraud value comes from the riskiest segments?
-
+- Monitor fraud performance through executive-level KPIs.
+- Prioritize fraud investigations using customer and merchant risk profiles.
+- Identify high-risk payment corridors requiring additional controls.
+- Measure the financial impact of fraud across products and markets.
+- Detect operational weaknesses such as IP-country mismatches and high-risk customer onboarding patterns.
+- Support evidence-based fraud mitigation strategies without applying blanket restrictions that negatively affect legitimate customers.
 ---
 
-## Project Approach
+## Solution Architecture
 
-**Phase 1: Database Setup and Staging**
+The solution was developed using a structured Business Intelligence workflow designed to ensure data reliability, analytical consistency, and scalable reporting.
 
-Created the FinLend database in SQL Server. Built four staging tables with all NVARCHAR columns to accept dirty data without crashing. Loaded the four CSVs using BULK INSERT. Verified row counts: 250,000 transactions, 15,000 customers, 1,500 merchants, 8 countries.
+```text
+Raw CSV Files
+      │
+      ▼
+SQL Server Staging Layer
+      │
+      ▼
+Data Quality Assessment
+      │
+      ▼
+Data Cleaning & Standardization
+      │
+      ▼
+Dimensional Modeling (Star Schema)
+      │
+      ▼
+Power BI Semantic Model
+      │
+      ▼
+Interactive Executive Dashboard
+```
 
-**Phase 2: Data Profiling**
+Each stage builds upon the previous one, creating an auditable analytics pipeline that preserves raw source data while producing trusted business insights for decision-makers.
 
-Measured every data quality issue before touching a single value. Ran six named checks:
+## Phase 1: Data Ingestion and Staging
 
-| Check | Found |
+A SQL Server staging architecture was created to preserve raw source data before transformation.
+
+Four staging tables were developed using NVARCHAR data types to ensure the ingestion process could accommodate inconsistent source values without failing. This approach allowed data quality issues to be identified and measured before applying any transformation logic.
+
+The four source datasets were loaded using BULK INSERT and validated against expected record counts:
+
+| Dataset | Records |
+|---|---:|
+| Transactions | 250,000 |
+| Customers | 15,000 |
+| Merchants | 1,500 |
+| Geography | 8 |
+
+This staging layer provided an auditable foundation for downstream profiling, cleansing, and analytical modeling.
+
+## Phase 2: Data Quality Assessment
+
+Before transforming the data, a structured data quality assessment was performed to establish a measurable baseline.
+
+Six validation checks were developed to identify completeness, consistency, accuracy, and integrity issues.
+
+| Quality Check | Finding |
 |---|---|
-| Null values | 10,005 missing device / 7,507 missing IP / 2,505 missing currency |
-| Country labels | Up to 3 spellings per country (case, abbreviation, whitespace) |
-| Bad amounts | 405 zero or negative |
-| Future dates | 60 rows, all stamped 23:59:59 (system bug fingerprint) |
-| Duplicates | 5,000 rows in duplicate groups (2,500 pairs) |
-| Placeholder emails | 90 across 5 junk values |
+| Missing values | 10,005 missing device IDs, 7,507 missing IP addresses, 2,505 missing currency values |
+| Country standardization | Multiple variations caused by inconsistent casing, abbreviations, and whitespace |
+| Invalid amounts | 405 transactions contained zero or negative values |
+| Future timestamps | 60 records contained identical future timestamps indicating a potential system issue |
+| Duplicate transactions | 5,000 duplicate records across 2,500 duplicate groups |
+| Placeholder emails | 90 records contained invalid placeholder email values |
 
-Profiling before cleaning matters. Without it, there is no evidence behind the cleaning decisions. The numbers above are that evidence.
+Profiling before cleansing ensured every transformation decision was evidence-based and traceable. Data quality improvements were measured rather than assumed.
+## Phase 3: Data Transformation and Validation
 
-**Phase 3: Data Cleaning**
+The transformation process converted raw staging data into clean analytical tables suitable for reporting and analysis.
 
-Built clean typed tables and moved data across from staging. Cleaned dimensions first, fact table last. The fact table cleaning resolved all six issues in a single CTE: type conversion with TRY_CONVERT, country label standardization with CASE, payment method normalization, NULL handling with NULLIF, and deduplication with ROW_NUMBER. Post-clean validation confirmed 247,040 clean rows, 8 distinct countries, 5 payment methods, 0 remaining duplicates, and 0 orphaned foreign keys.
+Dimensions were standardized first to establish trusted reference data before processing the transaction fact table. The final fact table transformation resolved all identified quality issues through a controlled SQL workflow using:
 
-Placeholder emails were flagged with an is_valid_email column rather than deleted. A customer with a fake email still made real transactions. Deleting the customer orphans their transaction history and breaks every join downstream. Keep the record, mark the problem.
+- TRY_CONVERT() for safe data type conversion
+- CASE statements for standardization logic
+- NULLIF() for controlled missing value handling
+- ROW_NUMBER() for duplicate detection and removal
 
-**Phase 4: Analysis**
+Post-transformation validation confirmed:
 
-Answered every business question with SQL. Techniques used: multi-table JOINs, CTEs, window functions, CASE statements, RANK/DENSE_RANK/ROW_NUMBER, running totals, rolling averages, time-series aggregation with DATEPART and DATEFROMPARTS, customer tenure calculation with DATEDIFF, fraud rate calculation, composite merchant risk scoring with PERCENT_RANK, geographic aggregation, and velocity detection with LAG.
+| Validation | Result |
+|---|---:|
+| Clean transactions | 247,040 |
+| Standardized countries | 8 |
+| Payment methods | 5 |
+| Remaining duplicates | 0 |
+| Orphaned foreign keys | 0 |
 
-**Phase 5: Optimization**
+Invalid customer email values were flagged using an `is_valid_email` indicator rather than removed.
 
-Measured baseline query cost (4,368 logical reads), then added a clustered index and four nonclustered indexes including a covering index on transaction_timestamp. Re-measured: 658 logical reads, an 85% reduction. Also demonstrated a correlated subquery rewrite as a window function, replacing 247,040 sub-executions with a single pass.
+This approach preserved transaction history and maintained referential integrity while allowing reporting users to identify data quality concerns.
 
-**Phase 6: Power BI Dashboard**
+## Phase 4: Analytical Development
 
-Built a 5-page dashboard with a star schema data model, regional row-level security, and DAX measures for all KPIs. Each page answers one question group and ends in an action, not just a chart.
+The cleaned analytical model was used to answer the business questions defined during project planning.
+
+SQL analysis was developed across customer, merchant, geographic, and transactional dimensions to identify fraud concentration, behavioral patterns, and operational risk factors.
+
+Analytical techniques included:
+
+- Multi-table joins
+- Common Table Expressions (CTEs)
+- Window functions
+- Ranking analysis
+- Time-series analysis
+- Customer tenure segmentation
+- Fraud rate calculations
+- Merchant risk scoring
+- Geographic corridor analysis
+- Transaction velocity detection
+
+Each analytical query was designed around a specific business decision, ensuring technical outputs translated into actionable insights.
+
+## Phase 5: Query Performance Optimization
+
+Performance optimization was performed after establishing a baseline execution profile.
+
+The initial analytical query generated:
+
+- Logical reads: 4,368
+- CPU time: 172ms
+- Elapsed time: 213ms
+
+Optimization activities included:
+
+- Clustered index implementation
+- Four nonclustered indexes
+- Covering index creation on transaction_timestamp
+- Rewriting inefficient correlated subqueries using window functions
+
+After optimization:
+
+| Metric | Before | After | Improvement |
+|---|---:|---:|---:|
+| Logical reads | 4,368 | 658 | 85% reduction |
+| CPU time | 172ms | 94ms | 45% faster |
+| Elapsed time | 213ms | 116ms | 46% faster |
+
+The optimization process demonstrated that analytical performance improvements should be measured through before-and-after evidence rather than assumptions.
+
+## Phase 6: Executive Dashboard Development
+
+The final analytical model was translated into a five-page Power BI executive reporting solution.
+
+The dashboard was built on a star schema architecture consisting of:
+
+- One transaction fact table
+- Four supporting dimensions
+- DAX-based KPI calculations
+- Regional Row-Level Security
+
+Each dashboard page was designed around a specific business question:
+
+1. Executive Overview  
+2. Fraud Trends  
+3. Merchant Risk  
+4. Geographic Analysis  
+5. Customer Risk Profiles  
+
+The dashboard was designed to move beyond visualization by connecting every analytical finding to a potential business action.
+---
+
+# Executive Insights
+
+The analysis identified seven business insights that explain where fraud exposure is concentrated and where mitigation efforts should be prioritised.
+
+## 1. Fraud Exposure Increased by 39%
+
+Fraud rate increased from **2.39% in Q1** to **3.32% in Q4**, representing a **39% increase** across the reporting period. The platform processed **$23.87M** in transactions, of which **$917.58K** was identified as fraudulent.
+
+This established that fraud exposure was increasing over time rather than remaining stable, creating the business case for investigating the drivers behind the trend.
 
 ---
 
-## Key Findings
+## 2. Fraud Was Concentrated Within High-Risk Merchant Categories
 
-**1. Fraud rate rose 39% across the year**
+Fraud risk was not evenly distributed across merchants.
 
-From 2.39% in the first quarter to 3.32% in the last. This is the headline number. Total fraud value across the year: $917,576 on $23.87M in transactions. The problem is real, it is growing, and it is costing money.
+| Merchant Category | Fraud Rate |
+|-------------------|-----------:|
+| Crypto Exchange | **10.12%** |
+| Gift Cards | **8.46%** |
+| Betting | **7.37%** |
+| Gaming | **6.90%** |
 
-**2. Four merchant categories drive most of the risk**
+The platform-wide fraud rate was **2.93%**, while Groceries (**1.44%**) and Utilities (**1.21%**) remained comparatively low.
 
-Crypto Exchange runs at 10.12% fraud rate. Gift Cards at 8.46%. Betting at 7.37%. Gaming at 6.90%. The platform average is 2.93%. These four categories share something in common: they convert to untraceable value instantly. Fraudsters target them specifically because stolen money is hard to recover once the transaction completes. Groceries (1.44%) and Utilities (1.21%) are the safe core of the platform.
-
-**3. New accounts are nearly three times riskier**
-
-Accounts under 30 days old run a 6.23% fraud rate compared to 2.24% for accounts between 90 days and a year. The drop from under 30 days to 30-90 days is dramatic, almost halving from 6.23% to 3.69%. After 90 days the rate stabilises. This is the clearest argument for enforcing KYC completion and lower limits during the first month.
-
-**4. IP country mismatch is the strongest single signal**
-
-When the IP country diverges from the transaction country, fraud rate more than doubles to 6.49% versus 2.75% for aligned transactions. This is the impossible travel signal. A real customer in Kenya transacting in Kenya has a Kenyan IP. When the IP says Egypt and the transaction says Kenya, something is wrong.
-
-**5. Overnight hours carry double the fraud rate**
-
-Transactions between 12AM and 5AM run at 5.59% fraud rate. Daytime hours sit between 2.74% and 2.99%. Real customers sleep. Fraudsters and automated systems do not.
-
-**6. The geographic story is corridors, not countries**
-
-Country-level fraud rates are nearly flat, ranging from 2.83% (Uganda) to 3.09% (Ghana). There is no single country that is dramatically riskier. The real geographic signal is in cross-border corridors: Tanzania to Rwanda at 10.29%, Rwanda to Ghana at 10.09%, Egypt to Ghana at 8.65%. When a customer transacts outside their home country, the risk profile changes entirely.
-
-**7. One customer stands out across multiple risk dimensions**
-
-CUST112663: 82 total transactions, 37 confirmed fraud, 45.12% personal fraud rate, 4 rapid bursts within 24 hours. This customer appears in both the top fraud value list and the velocity detection list. That convergence across two independent queries is the strongest case for immediate account action.
+**Business implication:** Fraud controls should be prioritised according to merchant risk rather than applied uniformly across the platform.
 
 ---
 
-## Data Model
+## 3. New Accounts Carried the Highest Fraud Exposure
 
-Star schema. One fact table in the center, four dimension tables around it.
+Customer tenure emerged as one of the strongest fraud indicators.
 
-| Table | Role | Rows |
-|---|---|---|
-| fact_transactions | Records events | 247,040 (after cleaning) |
-| dim_customers | Describes people | 15,000 |
-| dim_merchants | Describes businesses | 1,500 |
-| dim_geography | Describes places | 8 |
-| dim_date | Calendar table | 366 |
+| Account Age | Fraud Rate |
+|-------------|-----------:|
+| Under 30 Days | **6.23%** |
+| 30–90 Days | **3.69%** |
+| 90–365 Days | **2.24%** |
+| Over 1 Year | **2.41%** |
 
-Relationships: all one-to-many, single direction, from dimension to fact. No bidirectional filtering.
+The most significant reduction occurred after the first month.
 
-Transaction amounts are stored as USD equivalent. The local_currency column records the native currency for context, not the denomination of the amount field. This is standard practice in multi-currency fintech platforms to enable cross-market comparison.
+**Business implication:** New accounts should receive enhanced identity verification, lower transaction limits, and additional behavioural monitoring during onboarding.
+
+---
+
+## 4. IP Country Mismatch Was the Strongest Behavioural Indicator
+
+Transactions where the IP country differed from the transaction country recorded a **6.49% fraud rate**, compared with **2.75%** where both locations matched.
+
+Although legitimate travel and VPN usage can produce location mismatches, the strength of the relationship makes IP mismatch a valuable behavioural signal within a broader fraud risk scoring framework.
+
+**Business implication:** Trigger additional verification when high-value transactions occur alongside IP location inconsistencies.
+
+---
+
+## 5. Overnight Transactions Recorded Elevated Fraud Exposure
+
+Transactions processed between **12:00 AM and 5:00 AM** recorded a **5.59% fraud rate**, while daytime fraud rates remained relatively stable between **2.74% and 2.99%**.
+
+**Business implication:** Transaction timing should contribute to real-time fraud scoring rather than being treated as an isolated rule.
+
+---
+
+## 6. Cross-Border Transaction Corridors Revealed More Than Country-Level Reporting
+
+Country-level fraud rates appeared relatively consistent across all eight markets.
+
+However, analysing cross-border payment corridors revealed substantially stronger patterns.
+
+| Transaction Corridor | Fraud Rate |
+|----------------------|-----------:|
+| Tanzania → Rwanda | **10.29%** |
+| Rwanda → Ghana | **10.09%** |
+| Egypt → Ghana | **8.65%** |
+
+**Business implication:** Fraud controls should focus on high-risk payment corridors rather than applying the same strategy across entire countries.
+
+---
+
+## 7. Multiple Risk Indicators Identified the Same Customer
+
+Customer **CUST112663** appeared independently across multiple analytical techniques.
+
+- 82 total transactions
+- 37 confirmed fraud transactions
+- 45.12% individual fraud rate
+- Four high-velocity transaction bursts within 24 hours
+
+The account appeared in both the highest fraud value analysis and the transaction velocity analysis.
+
+**Business implication:** Multiple independent risk indicators significantly increase confidence that an account requires investigation and potential intervention.
+
+---
+
+## Dimensional Data Model
+
+The reporting solution was built using a dimensional star schema designed to support scalable analytics, simplified DAX calculations, and interactive reporting.
+
+| Table | Purpose | Records |
+|---------|---------|---------:|
+| fact_transactions | Stores transaction-level events | 247,040 |
+| dim_customers | Customer attributes | 15,000 |
+| dim_merchants | Merchant attributes | 1,500 |
+| dim_geography | Geographic reference data | 8 |
+| dim_date | Calendar dimension | 366 |
+
+The model follows established dimensional modeling principles with one-to-many, single-direction relationships from each dimension into the transaction fact table. This design minimizes ambiguity, improves query performance, and supports consistent filtering throughout the reporting solution.
+
+Transaction amounts are stored as USD equivalents to enable meaningful cross-market comparisons. The original transaction currency is retained separately within the `local_currency` field to preserve business context while maintaining consistent financial reporting across all regions.
 
 ---
 
@@ -149,7 +358,11 @@ Transaction amounts are stored as USD equivalent. The local_currency column reco
 
 ### Page 1: Executive Overview
 
-KPIs showing fraud rate (2.93%), total value ($23.87M), fraud value ($917.58K), and chargeback value ($591.16K). Includes a fraud rate trend line showing the 39% rise across the year, fraud rate by channel, and fraud value by month.
+Provides leadership with a high-level view of fraud exposure across the platform.
+
+Key metrics include: overall fraud rate, total transaction value, fraud losses, chargeback exposure and monthly fraud trend.
+
+The page enables executives to quickly understand whether fraud risk is increasing and where additional investigation is required.
 
 ![Page 1 — Executive Overview](PowerBI/Executive_Overview.png)
 
@@ -157,7 +370,11 @@ KPIs showing fraud rate (2.93%), total value ($23.87M), fraud value ($917.58K), 
 
 ### Page 2: Fraud Trends
 
-Fraud rate by payment method, fraud rate by time band (overnight at 5.59%), IP mismatch vs aligned (6.49% vs 2.75%), and fraud type breakdown showing even distribution across all six types.
+Analyzes behavioral patterns associated with fraudulent activity.
+
+Key analyses include: fraud rate by payment method, fraud concentration by transaction hour, IP-country mismatch analysis and fraud type distribution.
+
+The objective is to identify recurring signals that can support earlier fraud intervention.
 
 ![Page 2 — Fraud Trends](PowerBI/Fraud_Trends.png)
 
@@ -165,7 +382,11 @@ Fraud rate by payment method, fraud rate by time band (overnight at 5.59%), IP m
 
 ### Page 3: Merchant Risk
 
-Fraud rate by merchant category with Crypto Exchange at 10.12% leading. Top merchants table with conditional formatting on fraud rate and a scatter plot showing merchant volume vs fraud rate.
+Evaluates fraud exposure across merchant segments.
+
+Key analyses include: fraud rate by merchant category, merchant-level risk ranking and transaction volume versus fraud exposure analysis.
+
+This view helps risk teams prioritize monitoring efforts toward merchant categories generating disproportionate losses.
 
 ![Page 3 — Merchant Risk](PowerBI/Merchant_Risk.png)
 
@@ -173,7 +394,11 @@ Fraud rate by merchant category with Crypto Exchange at 10.12% leading. Top merc
 
 ### Page 4: Geographic Analysis
 
-Fraud rate by country (nearly flat at 2.83% to 3.09%) alongside the cross-border corridor table showing Tanzania-Rwanda at 10.29% leading. The story is corridors, not countries.
+Analyzes geographic fraud patterns beyond country-level reporting.
+
+Key analyses include: fraud rates by market, cross-border transaction corridors and high-risk transaction routes.
+
+The analysis revealed that transaction corridors provide stronger fraud signals than country-level comparisons.
 
 ![Page 4 — Geographic Analysis](PowerBI/Geographic_Analysis.png)
 
@@ -181,7 +406,11 @@ Fraud rate by country (nearly flat at 2.83% to 3.09%) alongside the cross-border
 
 ### Page 5: Customer Profiles
 
-Fraud rate by account tenure (under 30 days at 6.23%), fraud rate by KYC status (unverified at 4.64%), top customers by fraud value, and velocity detection flagging 13 customers with 10+ fraud transactions.
+Identifies customer segments requiring additional monitoring.
+
+Key analyses include: fraud rate by account tenure, KYC risk comparison, customer fraud exposure ranking and transaction velocity detection.
+
+This page supports investigation teams by highlighting customers displaying multiple risk indicators.
 
 ![Page 5 — Customer Profiles](PowerBI/Customer_Profiles.png)
 
@@ -199,112 +428,191 @@ Additionally demonstrated a correlated subquery rewrite as a window function, re
 
 ---
 
-## Row-Level Security
+## Row-Level Security Implementation
 
-Four regional roles configured: East Africa, West Africa, Southern Africa, North Africa. Each role filters dim_geography by region, and because the relationship flows from dimension to fact, every visual on every page automatically filters to that region's data only.
+To demonstrate enterprise reporting practices, regional Row-Level Security (RLS) was implemented within the Power BI semantic model.
 
-When viewing as East Africa, total value drops from $23.87M to $9.04M and the dashboard shows only Kenya, Tanzania, Uganda, and Rwanda transactions.
+Four security roles were created:East Africa, West Africa, Southern Africa and North Africa.
 
+Each role filters the geography dimension, with the relationship propagating security rules automatically throughout the transaction fact table.
+
+This approach allows multiple business teams to operate from a single reporting solution while ensuring users only access data relevant to their assigned region.
+
+Example:
+
+When viewing the dashboard as East Africa, transaction exposure changes from $23.87M globally to $9.04M, with reporting restricted to Kenya, Tanzania, Uganda, and Rwanda.
 ![Row-Level Security](PowerBI/rls_test2.png)
 
 ---
 
-## Business Recommendations
+# Business Recommendations
 
-**1. Tighten controls on high-risk merchant categories immediately**
+The analysis identified five targeted actions that could reduce fraud exposure while minimizing unnecessary friction for legitimate customers.
 
-Crypto Exchange (10.12%), Gift Cards (8.46%), Betting (7.37%), and Gaming (6.90%) run three to eight times the platform average. Apply stricter transaction limits, enhanced monitoring, and tighter merchant onboarding requirements for these four categories before expanding controls elsewhere.
+## 1. Apply Risk-Based Controls to High-Risk Merchant Categories
 
-**2. Enforce KYC completion and lower limits during the first 30 days**
+Crypto Exchange (10.12%), Gift Cards (8.46%), Betting (7.37%), and Gaming (6.90%) significantly exceed the platform average fraud rate of 2.93%.
 
-New accounts carry a 6.23% fraud rate, nearly three times the platform average. This is the single clearest customer-level risk factor. Enforcing KYC verification before raising transaction limits would cut exposure during the most vulnerable period.
+These categories represent the highest fraud exposure because funds can be converted quickly into difficult-to-recover assets.
 
-**3. Add step-up verification for IP mismatch and overnight transactions**
+**Recommendation:** Implement enhanced monitoring, transaction limits, and additional verification requirements for high-risk merchant categories rather than applying platform-wide restrictions.
 
-IP mismatch (6.49%) and overnight hours (5.59%) are the two strongest behavioural signals. A step-up verification rule that triggers when either condition is present would target the riskiest transactions without inconveniencing the majority of legitimate users.
+## 2. Strengthen New Account Controls During Early Lifecycle Stages
 
-**4. Apply corridor-specific velocity rules for cross-border transactions**
+Customers with accounts under 30 days recorded a 6.23% fraud rate, nearly three times higher than mature accounts.
 
-The geographic risk is in corridors, not countries. Tanzania-Rwanda, Rwanda-Ghana, and Egypt-Ghana all exceed 8% fraud rate. Tighter velocity rules on these specific routes, rather than blanket country restrictions, would be the most effective geographic control.
+The first month represents the highest-risk period in the customer lifecycle.
 
-**5. Investigate CUST112663 and similar velocity-burst accounts immediately**
+**Recommendation:** Introduce stronger onboarding controls, including: mandatory KYC completion, lower initial transaction limits and increased monitoring during the first 30 days.
 
-One customer with 37 fraud transactions and 4 rapid bursts within 24 hours represents an active account takeover or compromised identity. Any customer matching three or more high-risk signals (high personal fraud rate, velocity bursts, cross-border activity, unverified KYC) should be flagged for immediate review.
+## 3. Introduce Adaptive Verification for High-Risk Transaction Signals
 
----
+IP-country mismatch transactions generated a 6.49% fraud rate, while overnight transactions generated 5.59%.
 
-## Data Quality Story
+Both indicators identify transactions with elevated risk without affecting most legitimate activity.
 
-Real data is dirty. This project profiled, measured, and cleaned six specific issues:
+**Recommendation:** Implement step-up verification when multiple risk indicators occur, such as: Geographic mismatch, unusual transaction timing, high-value payments and new account activity
 
-| Issue | Volume | Cause | Fix |
-|---|---|---|---|
-| Exact duplicate rows | 2,500 pairs | Payment retry double-posting | ROW_NUMBER dedup on 5 business fields |
-| Inconsistent country labels | Thousands | Multiple source feeds | CASE standardization to canonical names |
-| Casing/whitespace in payment method | Thousands | Manual and legacy entry | LTRIM, RTRIM, LOWER before CASE mapping |
-| Zero and negative amounts | 405 | System glitches | Filtered out (amount must be > 0) |
-| Future-dated timestamps | 60 | Clock/timezone bug | Filtered out (must be within data window) |
-| Placeholder emails | 90 | Test accounts left in production | Flagged with is_valid_email, not deleted |
+## 4. Monitor High-Risk Cross-Border Corridors
 
-Every cleaning decision was documented with a before count and an after validation. The post-clean check confirmed 247,040 rows, 8 countries, 5 payment methods, 0 duplicates, and 0 orphaned foreign keys.
+Country-level fraud rates were relatively consistent, but specific transaction corridors showed significantly higher risk.
 
----
+Examples:
 
-## SQL Techniques Demonstrated
+- Tanzania → Rwanda: 10.29%
+- Rwanda → Ghana: 10.09%
+- Egypt → Ghana: 8.65%
 
-| Technique | Where used |
-|---|---|
-| Multi-table JOINs | Every analytical query connecting fact to dimensions |
-| CTEs (Common Table Expressions) | Monthly trend, merchant risk score, quarterly comparison |
-| Window functions (OVER, PARTITION BY) | Running totals, rolling averages, ranking, velocity detection, deduplication |
-| CASE statements | Tenure bands, country standardization, payment method normalization |
-| RANK / DENSE_RANK / ROW_NUMBER / NTILE | Merchant risk ranking, category ranking, deduplication |
-| Running totals | Cumulative fraud value across months |
-| Rolling averages | 3-month fraud rate smoothing |
-| Time-series aggregation | Monthly trend, hourly clustering with DATEPART |
-| Customer tenure calculation | DATEDIFF between signup_date and transaction_timestamp |
-| Fraud rate calculation | 100.0 * SUM(CAST(is_fraud AS INT)) / COUNT(*) |
-| Merchant risk scoring | Composite PERCENT_RANK blending fraud rate and fraud value |
-| Geographic aggregation | Country and corridor grouping with JOIN to dim_geography |
-| Duplicate detection | COUNT(*) OVER (PARTITION BY business fields) |
-| Data quality profiling | SUM(CASE WHEN condition THEN 1 ELSE 0 END) conditional counting |
-| TRY_CONVERT | Safe type conversion that returns NULL instead of crashing |
-| Covering indexes | Nonclustered index with INCLUDE columns for query optimization |
+**Recommendation:** Develop corridor-level monitoring rules rather than restricting entire countries, allowing FinLend to target risk more precisely.
+
+## 5. Prioritize Customers Showing Multiple Risk Signals
+
+Customer CUST112663 demonstrated several independent indicators: 37 fraudulent transactions, 45.12% personal fraud rate and 4 velocity bursts within 24 hours
+
+**Recommendation:** Create a customer risk scoring framework combining: fraud history, transaction velocity, geographic anomalies, account tenure and KYC status.
+
+This allows investigation teams to focus resources on customers with the highest probability of risk.
 
 ---
 
-## Errors Encountered and Fixes
+# Data Quality Management
 
-Real projects hit real problems. These were the issues encountered and how they were resolved.
+Data quality assessment was treated as a core component of the analytical solution rather than a preprocessing step.
 
-| Error | Cause | Fix |
+Six categories of data quality issues were identified, measured, and resolved:
+
+| Issue | Volume | Root Cause | Resolution |
+|---|---:|---|---|
+| Duplicate transactions | 2,500 pairs | Payment retry duplication | ROW_NUMBER-based deduplication |
+| Country inconsistencies | Thousands | Multiple source formats | Standardized using CASE mappings |
+| Payment method variations | Thousands | Manual and legacy entry | Text normalization before mapping |
+| Invalid transaction values | 405 | System errors | Removed transactions where amount ≤ 0 |
+| Future timestamps | 60 | System clock/timezone issue | Removed records outside reporting period |
+| Placeholder emails | 90 | Test or incomplete customer records | Flagged using is_valid_email |
+
+Each transformation was validated using before-and-after counts to ensure data quality improvements were measurable and reproducible.
+
+The final analytical dataset contained:
+
+- 247,040 validated transactions
+- 8 standardized countries
+- 5 payment methods
+- Zero duplicates
+- Zero orphaned relationships
+---
+
+# Skills Demonstrated
+
+## SQL Server
+
+| Capability | Demonstrated Through |
+|------------|----------------------|
+| **Data ingestion and staging** | Implemented a two-layer staging architecture using `BULK INSERT` to load 250,000 transactions into SQL Server. All source data was initially staged as text, creating a reliable ETL process that handled data quality issues without load failures. |
+| **Data quality management** | Applied a six-stage profiling framework covering missing values, consistency, validity, date integrity, duplicate detection, and pattern validation. Every transformation was supported by measured evidence rather than assumptions. |
+| **Data transformation** | Performed type conversion, standardized country and payment method values, removed duplicate records, and validated referential integrity through a structured CTE transformation pipeline. |
+| **Analytical SQL** | Used Common Table Expressions (CTEs), window functions, ranking functions, time-series analysis, customer tenure segmentation, merchant risk scoring, geographic corridor analysis, and transaction velocity detection to answer business questions. |
+| **Dimensional modelling** | Designed a star schema consisting of fact and dimension tables supporting analytical reporting across customers, merchants, geography, and time. |
+| **Performance optimization** | Designed clustered, nonclustered, and covering indexes that reduced logical reads by **85%** and query execution time by **46%**. Replaced a correlated subquery with a single-pass window function to improve scalability. |
+
+---
+
+## Power BI
+
+| Capability | Demonstrated Through |
+|------------|----------------------|
+| **Data modelling** | Built a star schema with one fact table and four dimensions using single-direction relationships to support scalable reporting and accurate filtering. |
+| **DAX** | Developed reusable KPI measures, rolling averages, fraud metrics, and time-intelligence calculations using self-contained measures to improve maintainability and avoid aggregation conflicts. |
+| **Executive reporting** | Designed a five-page interactive dashboard aligned to key business questions, enabling decision-makers to identify fraud trends, operational risks, and priority intervention areas. |
+| **Data visualization** | Selected visualization types based on analytical objectives, including KPI cards, trend lines, scatter plots, ranked bar charts, geographic analysis, and detailed tables for drill-down reporting. |
+| **Dashboard design** | Created a consistent branded reporting experience using custom page layouts, conditional formatting, and a colour palette that emphasizes high-risk metrics and improves usability. |
+| **Security** | Implemented Row-Level Security (RLS) using four regional roles, ensuring users could only access data relevant to their assigned geographic region across the entire reporting solution. |
+
+---
+
+# Implementation Challenges and Solutions
+
+Building analytical solutions involves resolving technical issues across data ingestion, database connectivity, modeling, and reporting layers.
+
+The following challenges were encountered and resolved during development.
+
+| Challenge | Root Cause | Resolution |
 |---|---|---|
-| BULK INSERT file not found | CSV files not in the folder the path pointed to | Moved files to the correct folder matching the BULK INSERT path |
-| OneDrive access denied on BULK INSERT | SQL Server service account cannot read OneDrive cloud-only files | Right-clicked folder, chose "Always keep on this device" |
-| Power BI connection error on localhost | SQL Server instance name not included | Changed server field to .\SQLEXPRESS |
-| Fraud Rate % showing error in Power BI | BIT column compared to integer (= 1) instead of boolean (= TRUE) | Changed filter from is_fraud = 1 to is_fraud = TRUE in all DAX measures |
-| Fraud Rate % card showing %GT prefix | Power BI applying "percent of grand total" aggregation | Used a self-contained VAR-based measure instead of referencing other measures |
-| Line chart showing single dot at (Blank) | dim_date relationship not connecting to DATETIME2 with time component | Used transaction_timestamp directly with Power BI date hierarchy |
-| MonthName sorting alphabetically | Text field sorts A-Z by default | Used Sort by Column in Column tools to sort MonthName by MonthNo |
-| New column formula error | Used New Measure instead of New Column | Switched to New Column which operates row by row |
+| BULK INSERT file not found | CSV files were stored in a different directory from the configured SQL Server path | Updated file locations and aligned BULK INSERT paths with the actual storage location |
+| OneDrive access restrictions during data loading | SQL Server service account could not access cloud-only files | Enabled local file availability using "Always keep on this device" |
+| Power BI connection failure | Incorrect SQL Server instance name configuration | Updated connection settings to reference the correct SQL Server Express instance |
+| Fraud Rate measure calculation errors | SQL Server BIT fields return TRUE/FALSE values rather than integer values in Power BI | Updated DAX filters to use boolean comparisons |
+| Incorrect percentage aggregation in Power BI cards | Default Power BI aggregation created percent-of-total calculations | Rebuilt measures using self-contained VAR-based DAX logic |
+| Date hierarchy showing blank values | DATETIME2 fields contained time components that prevented proper date matching | Created appropriate date relationships using transaction dates |
+| Incorrect month sorting | Text month names sorted alphabetically by default | Applied Sort by Column using Month Number |
+| Incorrect calculated field creation | Created a measure instead of a calculated column | Replaced with row-level calculated column logic |
+
+These issues reinforced the importance of understanding how data moves between systems and how design decisions in one layer affect the entire BI solution.
 
 ---
 
-## Lessons Learned
+# Lessons Learned
 
-1. Always stage data as text before typing it. One bad value in a DATETIME2 or DECIMAL column crashes the entire BULK INSERT. Text columns accept everything. Clean in the next step.
+## 1. Stage Data Before Applying Business Logic
 
-2. Profile before you clean. Without measuring the dirt first, there is no evidence behind the cleaning decisions. The profiling numbers are what make the cleaning defensible.
+Raw transactional data should not be loaded directly into typed analytical tables.
 
-3. In Power BI, BIT columns from SQL Server behave as TRUE/FALSE, not 1/0. Every DAX filter on a BIT column must use = TRUE instead of = 1. This caused three separate measure failures before the pattern was clear.
+Staging data as text provides flexibility when dealing with inconsistent source systems. Validation and transformation can then occur in a controlled environment without risking failed ingestion processes.
 
-4. The strongest geographic signal in fraud data is often not at the country level. Country rates were nearly flat (2.83% to 3.09%). The real story was cross-border corridors running at 10%+. Always check corridor pairs before claiming a regional pattern.
+## 2. Data Profiling Should Come Before Data Cleaning
 
-5. Flag dirty records instead of deleting them. A customer with a placeholder email still made real transactions. Deleting the customer breaks every foreign key join downstream. I kept the record and marked the problem with an is_valid_email flag.
+Cleaning without measurement creates undocumented assumptions.
 
-6. Optimization is a before-and-after story, not just an after. Capture the baseline logical reads and execution time before adding indexes. Without the before number, the improvement has no proof.
+By profiling the dataset first, every transformation decision was supported by evidence. This created a transparent data quality process where improvements could be measured before and after cleansing.
 
-7. Synthetic data works when you are transparent about it. I built this dataset deliberately and say so upfront. The analytical process is the same whether the data is real or designed.
+## 3. Preserve Data Lineage by Flagging Issues Instead of Deleting Records
+
+Not every data quality issue requires record removal.
+
+For example, customers with placeholder email addresses still had valid transaction histories. Removing these customers would damage relationships between customer and transaction tables.
+
+The preferred approach was preserving the record while adding an indicator such as `is_valid_email` to identify the quality issue.
+
+## 4. Business Risk Is Often Hidden Below the Aggregate Level
+
+Country-level fraud rates appeared almost identical, ranging from 2.83% to 3.09%.
+
+However, cross-border corridor analysis revealed significantly higher-risk transaction routes exceeding 10%.
+
+The lesson: aggregated reporting can hide operational risk. Effective BI analysis requires drilling into the right level of detail.
+
+## 5. Performance Improvements Require Evidence
+
+Optimization should be measured, not assumed.
+
+Capturing baseline execution metrics before adding indexes provided evidence that performance improvements were real.
+
+The final solution achieved an 85% reduction in logical reads, demonstrating the impact of thoughtful SQL design.
+
+## 6. Synthetic Data Can Still Demonstrate Real Analytical Thinking
+
+Production fraud datasets are rarely publicly available due to privacy and regulatory constraints.
+
+A synthetic dataset can still demonstrate BI capability when the analytical process is transparent, including data quality challenges, modeling decisions, performance considerations, and business recommendations.
 
 ---
 
@@ -397,12 +705,24 @@ finlend/
 
 For the full project story including business context, technical walkthrough, data quality challenges, and lessons learned, read the Medium article:
 
-[FinLend Solutions Fraud Analysis — Full Article](#) *(link to be added after publishing)*
+[FinLend Solutions Fraud Analysis — Full Article](#) *(https://medium.com/@abijahkabiro/fraud-was-increasing-business-intelligence-revealed-where-finlend-was-most-exposed-401373f9a1d1)*
 
 ---
 
-## About This Project
+# About This Project
 
-Built by **Abijah Kabiro**, a business intelligence analyst based in Nairobi, Kenya with four years of experience in supply chain, logistics, and customer analytics. This project was built to demonstrate how SQL Server and Power BI can work together to move from dirty transactional data to actionable fraud intelligence — not just charts for visual effect.
+Built by Abijah Kabiro, a Business Intelligence Analyst specializing in SQL, Power BI, analytics, and operational decision support.
+
+This project demonstrates the complete BI lifecycle:
+
+- Understanding a business problem
+- Preparing unreliable source data
+- Designing analytical models
+- Developing scalable reporting solutions
+- Optimizing query performance
+- Translating insights into business recommendations
+
+The objective was not simply to create dashboards, but to demonstrate how Business Intelligence can transform transactional data into decisions that reduce risk and improve business performance.
+
 
 **Connect:** [LinkedIn](https://linkedin.com/in/abijahkabiro) · [Portfolio](https://abijahkabiro.github.io) · [Medium](https://medium.com/@abijahkabiro) · [GitHub](https://github.com/Abijahkabiro)
